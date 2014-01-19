@@ -11,8 +11,8 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 ### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
 
 ```
-<link rel="stylesheet" type="text/css" href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" />
-<script type="text/javascript" src="http://clovisdasilvaneto.github.io/all-animation/js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="yourpath//all-animation.css" />
+<script type="text/javascript" src="yourpath/jquery.js"></script>
 
 ```
 
@@ -32,5 +32,16 @@ $("anny-class").click(function(){
  $("#animation").addClass("journal");
 });
 ```
+
+temos várias classe no lugar da class journal, vejamos quais são:
+
+<ul>
+ <li>Dance</li>
+ <li>Journal</li>
+ <li>Pulse</li>
+ <li>Pulse Slow</li>
+ <li>Jamp</li>
+ <li>Four Rock</li>
+</ul>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
