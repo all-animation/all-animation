@@ -97,4 +97,10 @@ a,img {border: none;}
 
 /********************************************/
 
-#footer { width: 100%; background: url(../img/footer.png) no-repeat; background-size: 100% 100%; height: 50px;}
+#footer { 
+		width: 100%; background: url(../img/footer.png) no-repeat; background-size: 100% 100%; height: 50px;
+		p:first-child { float: left; font-size: 23px; margin-top: 13px;}
+		p{ color: #fff; float: right; font-size: 18px; margin:17px 17px 0;}
+		a {color: #fff; text-decoration: none;}
+		a:hover {text-decoration: underline;}
+	}
