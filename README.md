@@ -75,4 +75,17 @@ Temos várias classe no lugar da class journal, vejamos quais são:
  <li>flip-bottom</li>
 </ul>
 
+### Rotate:
+<ul>
+ <li>rotate-flip-down</li>
+ <li>rotate-down-bounce</li>
+ <li>rotate-out</li>
+</ul>
+
+### Agrecives:
+<ul>
+ <li>flash-bang</li>
+ <li>bomba</li>
+</ul>
+
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
