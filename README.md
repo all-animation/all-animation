@@ -1,7 +1,3 @@
-<style>
-.topicos {font-size:16px; font-weight:bold;}
-</style>
-
 All Animation
 =============
 
@@ -11,4 +7,4 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 
 É facil ultilizar este framework css :D, temos duas formas de ultilizá-lo no evento de clique, com jquery e com javascript:
 
-<p class="topicos">- Uso por meio da jquery:</p>
+<p style="font-size:16px; font-weight:bold;">- Uso por meio da jquery:</p>
