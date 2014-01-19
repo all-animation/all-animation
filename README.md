@@ -33,7 +33,9 @@ $("anny-class").click(function(){
 });
 ```
 
-temos várias classe no lugar da class journal, vejamos quais são:
+Temos várias classe no lugar da class journal, vejamos quais são:
+
+### Especiais:
 
 <ul>
  <li>Dance</li>
@@ -42,6 +44,17 @@ temos várias classe no lugar da class journal, vejamos quais são:
  <li>Pulse Slow</li>
  <li>Jamp</li>
  <li>Four Rock</li>
+</ul>
+
+### Bounce:
+ Enter Left Bounce  Scale Bounce  Jump Bounce
+<ul>
+ <li>enter-up-bounce </li>
+ <li>enter-down-bounce</li>
+ <li>enter-right-bounce </li>
+ <li>enter-left-bounce</li>
+ <li>scale-bounce</li>
+ <li>jump-bounce</li>
 </ul>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
