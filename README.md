@@ -11,4 +11,4 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 
 É facil ultilizar este framework css :D, temos duas formas de ultilizá-lo no evento de clique, com jquery e com javascript:
 
-<p>- Uso por meio da jquery:</p>
+<p class="topicos">- Uso por meio da jquery:</p>
