@@ -1,0 +1,100 @@
+$cor-clara : #bbb;
+$cor-escura : #999;
+$cor-light: #fff;
+$verde:#00D76B;
+
+@mixin transition($propiedade){
+	-webkit-transition:$propiedade;
+	-moz-transition:$propiedade;
+	-ms-transition:$propiedade;
+	-o-transition:$propiedade;
+	transition:$propiedade;
+}
+
+@mixin seta($expressura){
+	width: 0;
+	height: 0;
+	border:solid $expressura transparent;
+}
+
+@mixin fixed($top,$left){
+	position: fixed;
+	top:$top;
+	left: $left;
+}
+
+@mixin posicaoBottomLeft($bottom,$left){
+	position: absolute;
+	bottom: $bottom;
+	left: $left;
+}
+@mixin posicao($top,$left){
+	position: absolute;
+	top: $top;
+	left: $left;
+}
+
+@mixin transform($propiedade){
+	-webkit-transform:$propiedade;
+	-moz-transform:$propiedade;
+	-o-transform:$propiedade;
+	-ms-transform:$propiedade;
+	transform:$propiedade;
+}
+
+
+* {margin: 0; padding: 0; font-family: "Lato",arial; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}
+img {max-width: 100%;}
+a,img {border: none;}
+
+.cor1 {color: $cor-escura;}
+.off-decoration {text-decoration: none;}
+.transition {@include transition(all ease-out 0.5s);}
+
+/************ RIGHT ************/
+#left {width: 489px;/* border-right: solid 1px #bbb;*/ padding: 38px; float: left;}
+.relative {position: relative;}
+
+/***** ANIMAÇÃO ******/
+.fixo {@include fixed(24%,140px); }
+#animacao {width: 209px;
+	div.center{max-width: 100%; border: solid 1px $cor-escura; padding: 8px; text-align: center;}
+	figure{ height: 132px; background: #00D7D7; margin-bottom: 20px; overflow: hidden;}
+}
+
+#mato-esquerdo {z-index: 2; height: 93px;background: $verde;width: 58px;@include posicaoBottomLeft(0,-20px);@include transform(rotate(24deg));}
+
+#mato-esquerdo:before {@include seta(50px);content: "";border-right: solid 79px #00D7D7;@include posicao(-52px,-18px);@include transform(rotate(-211deg));border-top: solid 38px transparent; }
+
+#mato-esquerdo:after {@include seta(50px); content: ""; @include posicao(-59px,22px);@include transform(rotate(-21deg));border-bottom: solid 88px #2DFF96;border-left-width: 41px;border-right-width: 72px;}
+
+#mato-direito {z-index: 1; @include seta(33px);@include posicao(43px,89px);left: 89px;border-left-width: 53px;border-right-width: 80px;border-bottom: solid 65px #2DFF96;}
+#mato-direito:before {content: "";@include seta(40px);border-left: solid 63px $verde;@include posicao(-22px,-73px);@include transform(rotate(-50deg));border-bottom-width: 0px;border-top-width: 38px;}
+
+/********************************************/
+
+#right {
+	overflow: hidden; border-left: solid 1px $cor-clara; color: $cor-escura; margin-bottom: -15px;
+}
+
+#topo-right {padding: 20px; border-bottom: solid 10px #ccc; 
+	h3 {color: $cor-escura; font-size: 20px;margin: 41px 0 13px;text-align: center; font-family: "Tahoma";}
+	a {padding: 10px;font-family: "Myriad Pro";color: $cor-light;background: #2DFF96;border: solid 3px $verde;margin-left: 15px;}
+	a:hover {background: $verde;border: solid 3px #2DFF96; }
+}
+
+#efeitos {padding:0 20px;background: #eee;min-height: 500px;border-top: solid 1px $cor-clara;}
+
+.box {padding-top:1px;min-height: 142px; border-bottom:dotted 1px #888; margin-top: 25px; padding-bottom: 20px;
+	span {width: 40px; height: 40px; background: $verde; border-radius: 100%; float: left; text-align: center; line-height: 40px; color: $cor-light; font-family: "arial",tahoma; font-size: 22px; font-weight: bold; margin-right: 12px; }
+	button {margin-bottom: 10px; background: #00D7D7; border: solid 2px #00BBBB; cursor: pointer;@include transition(all ease-out 0.5s); padding: 10px 20px; color: $cor-light; font-size: 22px; font-weight: bold;}
+	button:hover {box-shadow: inset 0 0 40px $cor-light; }
+}
+
+.box:last-child {border: none;}
+
+.titulo {font-size: 26px;font-weight: bold;color: #666;margin-top: 3px;display: block; margin-bottom: 27px;}
+
+/********************************************/
+
+#footer { width: 100%; background: url(../img/footer.png) no-repeat; background-size: 100% 100%; height: 50px;}

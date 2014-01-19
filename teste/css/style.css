@@ -1,0 +1,281 @@
+/* line 46, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato",arial;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 47, ../sass/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 48, ../sass/style.scss */
+a, img {
+  border: none;
+}
+
+/* line 50, ../sass/style.scss */
+.cor1 {
+  color: #999999;
+}
+
+/* line 51, ../sass/style.scss */
+.off-decoration {
+  text-decoration: none;
+}
+
+/* line 52, ../sass/style.scss */
+.transition {
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -ms-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+}
+
+/************ RIGHT ************/
+/* line 55, ../sass/style.scss */
+#left {
+  width: 489px;
+  /* border-right: solid 1px #bbb;*/
+  padding: 38px;
+  float: left;
+}
+
+/* line 56, ../sass/style.scss */
+.relative {
+  position: relative;
+}
+
+/***** ANIMAÇÃO ******/
+/* line 59, ../sass/style.scss */
+.fixo {
+  position: fixed;
+  top: 24%;
+  left: 140px;
+}
+
+/* line 60, ../sass/style.scss */
+#animacao {
+  width: 209px;
+}
+/* line 61, ../sass/style.scss */
+#animacao div.center {
+  max-width: 100%;
+  border: solid 1px #999999;
+  padding: 8px;
+  text-align: center;
+}
+/* line 62, ../sass/style.scss */
+#animacao figure {
+  height: 132px;
+  background: #00D7D7;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* line 65, ../sass/style.scss */
+#mato-esquerdo {
+  z-index: 2;
+  height: 93px;
+  background: #00d76b;
+  width: 58px;
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  transform: rotate(24deg);
+}
+
+/* line 67, ../sass/style.scss */
+#mato-esquerdo:before {
+  width: 0;
+  height: 0;
+  border: solid 50px transparent;
+  content: "";
+  border-right: solid 79px #00D7D7;
+  position: absolute;
+  top: -52px;
+  left: -18px;
+  -webkit-transform: rotate(-211deg);
+  -moz-transform: rotate(-211deg);
+  -o-transform: rotate(-211deg);
+  -ms-transform: rotate(-211deg);
+  transform: rotate(-211deg);
+  border-top: solid 38px transparent;
+}
+
+/* line 69, ../sass/style.scss */
+#mato-esquerdo:after {
+  width: 0;
+  height: 0;
+  border: solid 50px transparent;
+  content: "";
+  position: absolute;
+  top: -59px;
+  left: 22px;
+  -webkit-transform: rotate(-21deg);
+  -moz-transform: rotate(-21deg);
+  -o-transform: rotate(-21deg);
+  -ms-transform: rotate(-21deg);
+  transform: rotate(-21deg);
+  border-bottom: solid 88px #2DFF96;
+  border-left-width: 41px;
+  border-right-width: 72px;
+}
+
+/* line 71, ../sass/style.scss */
+#mato-direito {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border: solid 33px transparent;
+  position: absolute;
+  top: 43px;
+  left: 89px;
+  left: 89px;
+  border-left-width: 53px;
+  border-right-width: 80px;
+  border-bottom: solid 65px #2DFF96;
+}
+
+/* line 72, ../sass/style.scss */
+#mato-direito:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid 40px transparent;
+  border-left: solid 63px #00d76b;
+  position: absolute;
+  top: -22px;
+  left: -73px;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  border-bottom-width: 0px;
+  border-top-width: 38px;
+}
+
+/********************************************/
+/* line 76, ../sass/style.scss */
+#right {
+  overflow: hidden;
+  border-left: solid 1px #bbbbbb;
+  color: #999999;
+  margin-bottom: -15px;
+}
+
+/* line 80, ../sass/style.scss */
+#topo-right {
+  padding: 20px;
+  border-bottom: solid 10px #ccc;
+}
+/* line 81, ../sass/style.scss */
+#topo-right h3 {
+  color: #999999;
+  font-size: 20px;
+  margin: 41px 0 13px;
+  text-align: center;
+  font-family: "Tahoma";
+}
+/* line 82, ../sass/style.scss */
+#topo-right a {
+  padding: 10px;
+  font-family: "Myriad Pro";
+  color: white;
+  background: #2DFF96;
+  border: solid 3px #00d76b;
+  margin-left: 15px;
+}
+/* line 83, ../sass/style.scss */
+#topo-right a:hover {
+  background: #00d76b;
+  border: solid 3px #2DFF96;
+}
+
+/* line 86, ../sass/style.scss */
+#efeitos {
+  padding: 0 20px;
+  background: #eee;
+  min-height: 500px;
+  border-top: solid 1px #bbbbbb;
+}
+
+/* line 88, ../sass/style.scss */
+.box {
+  padding-top: 1px;
+  min-height: 142px;
+  border-bottom: dotted 1px #888;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+/* line 89, ../sass/style.scss */
+.box span {
+  width: 40px;
+  height: 40px;
+  background: #00d76b;
+  border-radius: 100%;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-family: "arial",tahoma;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+/* line 90, ../sass/style.scss */
+.box button {
+  margin-bottom: 10px;
+  background: #00D7D7;
+  border: solid 2px #00BBBB;
+  cursor: pointer;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -ms-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+  padding: 10px 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* line 91, ../sass/style.scss */
+.box button:hover {
+  box-shadow: inset 0 0 40px white;
+}
+
+/* line 94, ../sass/style.scss */
+.box:last-child {
+  border: none;
+}
+
+/* line 96, ../sass/style.scss */
+.titulo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #666;
+  margin-top: 3px;
+  display: block;
+  margin-bottom: 27px;
+}
+
+/********************************************/
+/* line 100, ../sass/style.scss */
+#footer {
+  width: 100%;
+  background: url(../img/footer.png) no-repeat;
+  background-size: 100% 100%;
+  height: 50px;
+}
