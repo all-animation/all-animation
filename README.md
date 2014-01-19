@@ -8,19 +8,29 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 É facil ultilizar este framework css :D, veremos passo a passo como ultilizar este fabuloso framework de animação css3...
 
 
-### Uso com Jquery:
+### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
+
+```
+<link rel="stylesheet" type="text/css" href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" />
+<script type="text/javascript" src="http://clovisdasilvaneto.github.io/all-animation/js/jquery.js"></script>
+
+```
+
+### Passo 2, html:
 
 ```
 <div id="animation"></div>
 
-<button>Trigger class, go!</button>
+<button class="anny-class">Trigger class, go!</button>
 
 ```
 
-with optional callback:
+### Passo 3, Jquery:
 
 ```js
-numAnim.start(someMethodToCallOnComplete);
+$("anny-class").click(function(){
+ $("#animation").addClass("journal");
+});
 ```
 
-##[Try the demo](http://inorganik.github.io/countUp.js)
+##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
