@@ -5,7 +5,7 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 
 ### Como Usar:
 
-É facil ultilizar este framework css :D, veremos passo a passo como ultilizar este fabuloso framework de animação css3...
+É facil ultilizar este framework css :D, veremos passo a passo como ultilizá-lo...
 
 
 ### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
@@ -38,16 +38,15 @@ Temos várias classe no lugar da class journal, vejamos quais são:
 ### Especiais:
 
 <ul>
- <li>Dance</li>
- <li>Journal</li>
- <li>Pulse</li>
- <li>Pulse Slow</li>
- <li>Jamp</li>
- <li>Four Rock</li>
+ <li>dance</li>
+ <li>journal</li>
+ <li>pulse</li>
+ <li>pulse-slow</li>
+ <li>jamp</li>
+ <li>four-rock</li>
 </ul>
 
 ### Bounce:
- Enter Left Bounce  Scale Bounce  Jump Bounce
 <ul>
  <li>enter-up-bounce </li>
  <li>enter-down-bounce</li>
@@ -55,6 +54,25 @@ Temos várias classe no lugar da class journal, vejamos quais são:
  <li>enter-left-bounce</li>
  <li>scale-bounce</li>
  <li>jump-bounce</li>
+</ul>
+
+### Perspective:
+<ul>
+ <li>tree-flip-right</li>
+ <li>tree-flip</li>
+ <li>tree-flip-up</li>
+ <li>tree-flip-down</li>
+ <li>flip-left-bounce</li>
+ <li>rotate-flip</li>
+ <li>flip-right-bounce</li>
+</ul>
+
+### Fading Entrances:
+<ul>
+ <li>flip-top</li>
+ <li>flip-left</li>
+ <li>flip-right</li>
+ <li>flip-bottom</li>
 </ul>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
