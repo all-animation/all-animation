@@ -7,6 +7,10 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
 <a href="http://clovisdasilvaneto.github.io/all-animation/">Veja uma demo dos efeitos que este imenso framework pode fazer :D</a>
 
+
+### Contribuidores:
+Caso você queira contribuir com o nosso projeto, leia o arquivo: contribuidores.md ;)
+
 ### Como Usar:
 
 É facil ultilizar este framework css :D, veremos passo a passo como ultilizá-lo...
