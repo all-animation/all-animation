@@ -10,7 +10,7 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 
 ### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
 
-baixe o all animation, [clicando aqui](http://clovisdasilvaneto.github.io/all-animation/)
+baixe o all animation, <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">clicando aqui</a>
 
 ```
 <link rel="stylesheet" type="text/css" href="yourpath//all-animation.css" />
