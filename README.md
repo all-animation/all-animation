@@ -30,7 +30,7 @@ baixe o all animation, <a href="http://clovisdasilvaneto.github.io/all-animation
 ### Passo 3, Jquery:
 
 ```js
-$("anny-class").click(function(){
+$(".anny-class").click(function(){
  $("#animation").addClass("journal");
 });
 ```
