@@ -43,6 +43,26 @@ $(".anny-class").click(function(){
 });
 ```
 
+Caso queira adicionar o efeito em algum determinado tempo, é colocar um temporizador ;)
+
+ex, colocando uma animação em um determinado elemento, depois de 2 segundos:
+
+```js
+setTimeout(function(){
+ $("#animation").addClass("journal");
+},2000);
+```
+
+### Atênção:
+
+Caso você queira adicionar alguma animação em um elemento que já sofreu uma outra animação deste framework, ou queira reiniciar a animação, você terá que remover a ultima animação e inserir a sua, ex:
+
+
+```js
+ $("#animation").removeClass("journal").addClass("four-rock");
+```
+
+
 Temos várias classe no lugar da class journal, vejamos quais são:
 
 ### Especiais:
