@@ -9,7 +9,7 @@ All Animation.css é um conjunto de animações, divertidas para deixar seu proj
 
 
 ### Contribuidores:
-Caso você queira contribuir com o nosso projeto, leia o arquivo: contribuidores.md ;)
+Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
 
 ### Como Usar:
 
