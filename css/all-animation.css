@@ -87,6 +87,10 @@
 
 .rotate-down-bounce {
 	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
 	-webkit-animation: rotateDowBounce 1 2s ease-in;
 	-o-animation: rotateDowBounce 1 2s ease-in;
 	-moz-animation: rotateDowBounce 1 2s ease-in;
