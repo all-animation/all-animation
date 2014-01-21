@@ -69,8 +69,12 @@ a,img {border: none;}
 #mato-esquerdo:after {@include seta(50px); content: ""; @include posicao(-59px,22px);@include transform(rotate(-21deg));border-bottom: solid 88px #2DFF96;border-left-width: 41px;border-right-width: 72px;}
 
 #mato-direito {z-index: 1; @include seta(33px);@include posicao(43px,89px);left: 89px;border-left-width: 53px;border-right-width: 80px;border-bottom: solid 65px #2DFF96;}
+
 #mato-direito:before {content: "";@include seta(40px);border-left: solid 63px $verde;@include posicao(-22px,-73px);@include transform(rotate(-50deg));border-bottom-width: 0px;border-top-width: 38px;}
 
+#nuvem {width: 37px;height: 12px;background: #fff;border-radius: 100%;position: absolute;top: 16px;right: 20px;
+}
+#nuvem:before {content: "";width: 14px;top: -6px;border-radius: 100%;height: 23px;background: #fff;position: absolute;left: 12px;}
 /********************************************/
 
 #right {
