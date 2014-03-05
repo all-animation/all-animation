@@ -104,9 +104,7 @@
 	-o-animation: journal 1 2s ease-in;
 	-moz-animation: journal 1 2s ease-in;
 	-ms-animation: journal 1 2s ease-in;
-	animation: journal 1 2s ease-in;
-	opacity: 1;
-}
+	animation: journal 1 2s ease-in;}
 
 .flash-bang {
 	-webkit-animation: flashBang 1 2s linear;
@@ -128,7 +126,6 @@
 	-moz-animation: flipLeft 1 1s ease-out;
 	-ms-animation: flipLeft 1 1s ease-out;
 	animation: flipLeft 1 1s ease-out;
-	opacity: 1;
 }
 .flip-top {
 	-webkit-animation: flipTop 1 1s ease-out;
@@ -136,7 +133,6 @@
 	-moz-animation: flipTop 1 1s ease-out;
 	-ms-animation: flipTop 1 1s ease-out;
 	animation: flipTop 1 1s ease-out;
-	opacity: 1;
 }
 .flip-right {
 	-webkit-animation: flipRight 1 1s ease-out;
@@ -144,7 +140,6 @@
 	-moz-animation: flipRight 1 1s ease-out;
 	-ms-animation: flipRight 1 1s ease-out;
 	animation: flipRight 1 1s ease-out;
-	opacity: 1;
 }
 .flip-bottom {
 	-webkit-animation: flipBottom 1 1s ease-out;
@@ -152,7 +147,6 @@
 	-moz-animation: flipBottom 1 1s ease-out;
 	-ms-animation: flipBottom 1 1s ease-out;
 	animation: flipBottom 1 1s ease-out;
-	opacity: 1;
 }
 .rotate-flip {
 	-webkit-animation: rotateFlip 1 1s linear;
@@ -160,7 +154,6 @@
 	-moz-animation: rotateFlip 1 1s linear;
 	-ms-animation: rotateFlip 1 1s linear;
 	animation: rotateFlip 1 1s linear;
-	opacity: 1;
 }
 .rotate-flip-down {
 	-webkit-animation: rotateFlipDown 1 1s linear;
@@ -210,7 +203,6 @@
 	-ms-animation: enterDownBounce 1s linear;
 	-o-animation: enterDownBounce 1s linear;
 	animation: enterDownBounce 1s linear;
-	opacity: 1;
 }
 
 .enter-up-bounce {
@@ -219,7 +211,6 @@
 	-ms-animation: enterUpBounce 1s linear;
 	-o-animation: enterUpBounce 1s linear;
 	animation: enterUpBounce 1s linear;
-	opacity: 1;
 }
 
 .enter-left-bounce {
@@ -228,7 +219,6 @@
 	-ms-animation: enterLeftBounce 1s linear;
 	-o-animation: enterLeftBounce 1s linear;
 	animation: enterLeftBounce 1s linear;
-	opacity: 1;
 }
 .enter-right-bounce {
 	-webkit-animation: enterRightBounce 1s linear;
@@ -236,7 +226,6 @@
 	-ms-animation: enterRightBounce 1s linear;
 	-o-animation: enterRightBounce 1s linear;
 	animation: enterRightBounce 1s linear;
-	opacity: 1;
 }
 
 .scale-bounce {
@@ -245,7 +234,6 @@
 	-ms-animation: scaleBounce 1s linear;
 	-o-animation: scaleBounce 1s linear;
 	animation: scaleBounce 1s linear;
-	opacity: 1;
 }
 
 .jamp {
@@ -262,7 +250,6 @@
 	-ms-animation: flipLeftBounce 1s ease-in-out;
 	-o-animation: flipLeftBounce 1s ease-in-out;
 	animation: flipLeftBounce 1s ease-in-out;
-	opacity: 1;
 }
 
 
@@ -272,7 +259,6 @@
 	-ms-animation: flipRightBounce 1s ease-in-out;
 	-o-animation: flipRightBounce 1s ease-in-out;
 	animation: flipRightBounce 1s ease-in-out;
-	opacity: 1;
 }
 
 .pulse {
