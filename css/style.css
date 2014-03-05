@@ -324,3 +324,21 @@ a, img {
 #footer a:hover {
   text-decoration: underline;
 }
+
+/*********** anuncio **************/
+/* line 113, ../sass/style.scss */
+#anuncio1, #anuncio2 {
+  /*background: #000;*/
+  position: fixed;
+  left: 7%;
+}
+
+/* line 114, ../sass/style.scss */
+#anuncio1 {
+  bottom: 70px;
+}
+
+/* line 115, ../sass/style.scss */
+#anuncio2 {
+  bottom: 0px;
+}

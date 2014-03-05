@@ -108,3 +108,8 @@ a,img {border: none;}
 		a {color: #fff; text-decoration: none;}
 		a:hover {text-decoration: underline;}
 	}
+
+/*********** anuncio **************/
+#anuncio1,#anuncio2 {/*background: #000;*/position: fixed;left: 7%;}
+#anuncio1 {bottom: 70px;}
+#anuncio2 {bottom:0px;}
