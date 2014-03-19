@@ -21,7 +21,7 @@ Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https
 baixe o all animation, <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">clicando aqui</a>
 
 ```
-<link rel="stylesheet" type="text/css" href="yourpath//all-animation.css" />
+<link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
 <script type="text/javascript" src="yourpath/jquery.js"></script>
 
 ```
