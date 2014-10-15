@@ -12,12 +12,20 @@ $(document).ready(function(){
 				$obj.removeClass(efeito);
 			}
 
+			if(efeito == "rotate-row"){
+				$obj.addClass("girar");
+			}else if($obj.hasClass("girar")){
+				$obj.removeClass("girar");
+			}
+
 			$obj.removeClass(classe).addClass($(this).data("efect"));
 			classe = efeito;
 
-			intervalo = setTimeout(function(){
-				$obj.removeClass(classe);
-			},$(this).data("clear"));
+			if($(this).data("clear")){
+				intervalo = setTimeout(function(){
+					$obj.removeClass(classe);
+				},$(this).data("clear"));
+			}
 
 		return false;
 	});
