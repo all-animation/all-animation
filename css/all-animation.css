@@ -1765,3 +1765,9 @@
 		left: 9px;
 	}
 }
+
+.girar {
+overflow: hidden;
+border-radius: 100%;
+border: solid 1px #666;
+}
