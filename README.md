@@ -53,7 +53,7 @@ setTimeout(function(){
 },2000);
 ```
 
-### Atênção:
+### Atenção:
 
 Caso você queira adicionar alguma animação em um elemento que já sofreu uma outra animação deste framework, ou queira reiniciar a animação, você terá que remover a ultima animação e inserir a sua, ex:
 
