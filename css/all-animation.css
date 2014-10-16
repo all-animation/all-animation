@@ -1275,24 +1275,24 @@
 
 /* FLIP BOTTOM */
 @-webkit-keyframes flipBottom {
-	0%{-webkit-transform: translateY(100px);opacity: 0;}
-	70%{-webkit-transform: translateY(30px);opacity: 1;}
-	100%{-webkit-transform: translateY(0);}
+	0%{transform: translateY(100px);opacity: 0;}
+	70%{transform: translateY(30px);opacity: 1;}
+	100%{transform: translateY(0);}
 }
 @-moz-keyframes flipBottom {
-	0%{-moz-transform: translateY(100px);opacity: 0;}
-	70%{-moz-transform: translateY(30px);opacity: 1;}
-	100%{-moz-transform: translateY(0);}
+	0%{transform: translateY(100px);opacity: 0;}
+	70%{transform: translateY(30px);opacity: 1;}
+	100%{transform: translateY(0);}
 }
 @-ms-keyframes flipBottom {
-	0%{-ms-transform: translateY(100px);opacity: 0;}
-	70%{-ms-transform: translateY(30px);opacity: 1;}
-	100%{-ms-transform: translateY(0);}
+	0%{transform: translateY(100px);opacity: 0;}
+	70%{transform: translateY(30px);opacity: 1;}
+	100%{transform: translateY(0);}
 }
 @-o-keyframes flipBottom {
-	0%{-o-transform: translateY(100px);opacity: 0;}
-	70%{-o-transform: translateY(30px);opacity: 1;}
-	100%{-o-transform: translateY(0);}
+	0%{transform: translateY(100px);opacity: 0;}
+	70%{transform: translateY(30px);opacity: 1;}
+	100%{transform: translateY(0);}
 }
 @keyframes flipBottom {
 	0%{transform: translateY(100px);opacity: 0;}
@@ -1769,10 +1769,4 @@
 		top: 9px;
 		left: 9px;
 	}
-}
-
-.girar {
-overflow: hidden;
-border-radius: 100%;
-border: solid 1px #666;
 }
