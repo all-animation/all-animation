@@ -12,10 +12,9 @@
 	-webkit-perspective: 600;
 	perspective: 600;
 	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
-	backface-visibility: hidden;}
+}
 
 .legend-flip {
 	-webkit-animation: legendFlip 1.2s ease-out;
