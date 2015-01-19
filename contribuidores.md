@@ -13,12 +13,12 @@ Estamos sempre precisando de novas animações, caso queira adicionar mais algum
 
 2- Então, como faço para adicionar novas animações no projeto? Siga os passos abaixo :D
 
-Não mecha no js (Se quiser apenas adicionar uma animação), pois estas animações seguem um padrão de serem feitas 
-apenas em css3
+Não mecha no JS (Se quiser apenas adicionar uma animação), pois estas animações seguem um padrão de serem feitas 
+apenas em CSS3
 
-Primeiro crie sua animação css:
+Primeiro crie sua animação CSS:
 
-```css
+```CSS
 
 .nome-classe {
 	-webkit-animation: nome 1 2s ease-out;
@@ -46,16 +46,16 @@ Primeiro crie sua animação css:
 Obs: só coloquei para -webkit- mas você terá que colocar também para os outros, pois estamos falando de animações "Cross Browser"
 
 
-Depois é só colocar um html nessa estrutura:
+Depois é só colocar um HTML nessa estrutura:
 
-``` html
+``` HTML
 <div class="box">
 	<span>5</span>
 	<p class="titulo">Nome do conjuto de animações</p>
   <button data-clear="2000" data-efect="nome-classe">Nome da primeira animação</button>
 </div>
 ```
-Observe que temos no botão um "data-clar" pois isto serve para limpar em determinado tempo, a classe da div que sofrerá a animação.
+Observe que temos no botão um "data-clear" pois isto serve para limpar em determinado tempo, a classe da div que sofrerá a animação.
 Neste exemplo a animação dura 2 segundos, logo colocamos um data-clear de 2000 :D
 
-Bem é básicamente isto para contribuir, nada de "bicho de sete cabeças" sinta-se avontade para contribuir com nosso projeto, e... mãos a obra!! :D
+Bem é básicamente isto para contribuir, nada de "bicho de sete cabeças" sinta-se à vontade para contribuir com nosso projeto, e... mãos à obra!! :D
