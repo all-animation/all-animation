@@ -58,7 +58,7 @@ a,img {border: none;}
 /***** ANIMAÇÃO ******/
 .fixo {@include fixed(24%,140px); }
 #animacao {width: 209px;
-	div.center{max-width: 100%; border: solid 1px $cor-escura; padding: 8px; text-align: center;}
+	div.center{max-width: 100%; border: solid 1px $cor-escura; padding: 8px; text-align: center; background: #FFF;}
 	figure{ height: 132px; background: #00D7D7; margin-bottom: 20px; overflow: hidden;}
 }
 
