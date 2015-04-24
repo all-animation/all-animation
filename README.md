@@ -13,7 +13,7 @@ Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https
 
 ### Como Usar:
 
-É facil ultilizar este framework css :D, veremos passo a passo como ultilizá-lo...
+É facil utilizar este framework css :D, veremos passo a passo como utilizá-lo...
 
 
 ### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
