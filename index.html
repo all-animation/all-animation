@@ -1,235 +1,476 @@
-	<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="pt-br"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="pt-br"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="pt-br"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="pt-br"> <!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="pt-br" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="pt-br" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="pt-br"> <!--<![endif]-->  
 <head>
+    <title>ALL ANIMATION CSS3</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles-4.css">
+    <link rel="stylesheet" href="assets/css/all-animation.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>ALL ANIMATION CSS3</title>
-	<meta name="description" content="ALL ANIMATION CSS3! Many examples of simple and advanced CSS3 animations for you to use in your project">
+<body data-spy="scroll">
+    
+    <!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">All Animation Css3</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Examples</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#docs">Get Started</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#license">Donate</a></li>                        
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <div class="treed fixo">
+                <section id="animacao" class="default">
+                    <header>
+                        <h2 class="title">All<span class="highlight">Animation</span>Css3</h2>
+                    </header>
 
-	<meta name="author" content="Clóvis Neto">
+                    <div class="center">    
+                        <article>
+                            <figure class="relative">
+                                <div id="mato-esquerdo"></div>
+                                <!-- mato esquerdo -->
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+                                <div id="mato-direito"></div>
+                                <!-- mato direito -->
 
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/all-animation.css">
+                                <div id="nuvem"></div>
+                            </figure>
+                            <!-- fim do desenho -->
+                        </article>          
+                    </div>
+                </section>
+            </div>
+            <p class="intro">All Animation.css is a set of animations, fun to let your sexiest project. They are cross-browser animations but that will emphasize your pages as sliders , 3D effects 's .</p>
+            <div class="btns">
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+                <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                <form style="display:inline-block" action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="currency" value="BRL">
+                <input type="hidden" name="receiverEmail" value="cloves13@hotmail.com">
+                <input type="submit" class="btn btn-cta-secondary" value="Donate">
+                </form>
+                <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-	
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                <a class="btn btn-cta-primary" href="assets/css/all-animation.css" target="_blank">Download</a>
+            </div>
+            <ul class="meta list-inline">
+                <li><a href="https://github.com/clovisdasilvaneto/all-animation" target="_blank">View on GitHub</a></li>
+                <li>Created by: <a href="http://clovisdasilvaneto.github.io/" target="_blank">Clóvis Neto</a></li>
+            </ul><!--//meta-->
+        </div><!--//container-->
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline">
+                    <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
+                    <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=clovisdasilvaneto&repo=all-animation&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
+                    <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=clovisdasilvaneto&repo=all-animation&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                    <!--//
+                    <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&type=follow&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </section><!--//promo-->
+    
+    <!-- ******ABOUT****** --> 
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="title text-center">What is All Animation CSS3?</h2>
+            <p class="intro text-center">The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / SASS.</p>
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">More than 8000 hits per month</h3>
+                        <p>According to Google Analytics , the greatest hits are coming from Japan , the United States , Brazil , China and Canada</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="clearfix visible-md"></div>    
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-tablet"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Mobile</h3>
+                        <p>You need not be importing various media queries in your css to fix your animation in mobile ;)</p>
+                    </div><!--//content-->
+                </div><!--//item-->                
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Easy to implement</h3>
+                        <p>Do not get praying for implementation of right. You just need to add a class and everything will be perfect</p>
+                    </div><!--//content-->
+                </div><!--//item-->               
+            </div><!--//row-->            
+        </div><!--//container-->
+    </section><!--//about-->
+    
+    <!-- ******FEATURES****** --> 
+    <section id="features" class="features section">
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="title">Examples - Click the buttons</h2>
+                <article class="col-md-8">
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">1</span> Especials</p>
+                        </div>
 
-  ga('create', 'UA-47249089-1', 'clovisdasilvaneto.github.io');
-  ga('send', 'pageview');
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="dance">Dance</button>
+                            <button class="btn btn-cta-secondary" data-clear="2500" data-efect="journal">Journal</button>
+                            <button class="btn btn-cta-secondary" data-clear="6000" data-efect="pulse">Pulse</button>
+                            <button class="btn btn-cta-secondary" data-clear="6000" data-efect="pulse-slow">Pulse Slow</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="jamp">Jamp</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="four-rock">Four Rock</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">2</span> Bounce</p>
+                        </div>
 
-</script>
-</head>
-<body>
-	<div id="left">
-		<header>
-			<a href="#">
-				<img src="img/all-animation-css3-logo.png" alt="ALL ANIMATION CSS3 LOGO" />
-			</a>
-		</header>
-		
-		<div class="treed fixo">
-			<section id="animacao" class="default">
-				<div class="center">	
-					<article>
-						<figure class="relative">
-							<div id="mato-esquerdo"></div>
-							<!-- mato esquerdo -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="enter-up-bounce">Enter Up Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="enter-down-bounce">Enter Down Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="enter-right-bounce">Enter Right Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="enter-left-bounce">Enter Left Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="scale-bounce">Scale Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="jump-bounce">Jump Bounce</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">3</span> Perspective</p>
+                        </div>
 
-							<div id="mato-direito"></div>
-							<!-- mato direito -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="tree-flip-right">Tree Flip Right</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="tree-flip">Tree Flip</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="tree-flip-up">Tree Flip Up</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="tree-flip-down">Tree Flip Down</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="flip-left-bounce">Flip Left Bounce</button> 
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="rotate-flip">Rotate Flip</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="flip-right-bounce">Flip Right Bounce</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">4</span> Fading Entrances</p>
+                        </div>
 
-							<div id="nuvem"></div>
-						</figure>
-						<!-- fim do desenho -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="flip-top">Flip Top</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="flip-left">Flip Left</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="flip-right">Flip Right</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="flip-bottom">Flip Bottom</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">5</span> Rotate</p>
+                        </div>
 
-						<img src="img/logo2.jpg" alt="All ANIMATION" />
-					</article>			
-				</div>
-			</section>
-		</div>
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="rotate-flip-down">Rotate Flip Down</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="rotate-down-bounce">Rotate Down Bounce</button>
+                            <button class="btn btn-cta-secondary" data-clear="1500" data-efect="rotate-out">Rotate Out</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">6</span> Agreccives</p>
+                        </div>
 
-		
-		<!-- <div id="anuncio1">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:320px;height:100px"
-			     data-ad-client="ca-pub-1694357110489226"
-			     data-ad-slot="4236090163"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div id="anuncio2">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:320px;height:100px"
-			     data-ad-client="ca-pub-1694357110489226"
-			     data-ad-slot="4236090163"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div> -->
-		<!-- fim do anuncio -->
-	</div>
-	<!-- fim da coluna esquerda -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="flash-bang">Flash Bang</button>
+                            <button class="btn btn-cta-secondary" data-clear="1000" data-efect="bomba">Bomba</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">7</span> Legend</p>
+                        </div>
 
-	<section id="right">
-		<article id="topo-right">
-			<p>All Animation.css é um conjunto de animações, divertidas para deixar seu projeto mais sexy.<br /> São animações cross-browser que darão mas ênfase a suas páginas como controles deslizantes, efeitos 3D’s..</p>
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="legend-down">Legend Down</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="legend-up">Legend Up</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="legend-left">Legend Left</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="legend-right">Legend Right</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="legend-flip">Legend Flip</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">8</span> Portrait </p>
+                        </div>
 
-			<h3>SE VOCÊ GOSTOU FAÇA O <a href="https://github.com/clovisdasilvaneto/all-animation" class="off-decoration transition" target="_blank">Download Github</a></h3> 
-		</article>
-		<!-- fim da descrição do framework -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="1000" data-efect="portrait-before">Portrait Before</button>
+                            <button class="btn btn-cta-secondary" data-clear="2000" data-efect="portrait-blur">Portrait Blur</button>
+                            
+                            <!-- ainda faltam -->
+                                <!-- <button class="btn btn-cta-secondary" data-clear="1000" data-efect="portrait-blur-light">Portrait Blur Light</button>
+                                <button class="btn btn-cta-secondary" data-clear="1000" data-efect="background-portrait">Background Portrait</button> -->
+                            <!-- falta -->
 
-		<article id="efeitos">
-			<div class="box">
-				<span>1</span>
-				<p class="titulo">Especials</p>
+                            <button class="btn btn-cta-secondary" data-clear="1000" data-efect="scale-before">Scale Before</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row separator">
+                        <div class="col-md-5">
+                            <p class="titles"><span class="number">9</span> Rotate</p>
+                        </div>
 
-				<button data-clear="1500" data-efect="dance">Dance</button>
-				<button data-clear="2000" data-efect="journal">Journal</button>
-				<button data-clear="6000" data-efect="pulse">Pulse</button>
-				<button data-clear="6000" data-efect="pulse-slow">Pulse Slow</button>
-				<button data-clear="1500" data-efect="jamp">Jamp</button>
-				<button data-clear="1500" data-efect="four-rock">Four Rock</button>
-			</div>
-			<!-- fim do box -->
+                        <div class="col-md-7 btns">
+                            <button class="btn btn-cta-secondary" data-clear="3000" data-efect="rotate-row">Rotate Row</button>
+                        </div>
+                    </div>
+                </article>
+                
+                <div class="col-md-4 treed">
+                    <div id="all-animation-icon">
+                        <img src="assets/images/all-animation.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div><!--//container-->
+    </section><!--//features-->
+    
+    <!-- ******DOCS****** --> 
+    <section id="docs" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+            <h2 class="title text-center">Get Started</h2>            
+            <div class="block">
+                <h3 class="sub-title text-center">Step 1 </h3>
+                <p>Include the necessary files in the head , so that the framework work properly</p>
+                
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+&ltlink rel="stylesheet" type="text/css" href="yourpath/all-animation.css" /&gt
+                     </code></pre>
+                </div><!--//code-block-->
+            </div><!--//block-->
+            
+            <div class="block">
+                <h3 class="sub-title text-center">Step 2</h3>
+                <p>To add the animation you can enter there by JavaScrip dynamically or statically placed there by html</p>
+                
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre>
+    <code class="language-markup">
+        &ltdiv class="dance"&gt 
+            Trigger Class...
+        &lt/div&gt
+    </code></pre>
+                </div><!--//code-block-->
+                
+                <br>
 
+                <h3 class="sub-title text-center">Or jQuery - Optional</h3>
+                <p>The inclusion of jQuery is optional , you can also add a dynamic class with querySelectors</p>
+                 <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre>
+    <code class="language-markup">
+        &ltdiv&gt 
+        &lt/div&gt
 
-			<div class="box">
-				<span>2</span>
-				<p class="titulo">Bounce</p>
-				
-				<button data-clear="1500" data-efect="enter-up-bounce">Enter Up Bounce</button>
-				<button data-clear="1500" data-efect="enter-down-bounce">Enter Down Bounce</button>
-				<button data-clear="1500" data-efect="enter-right-bounce">Enter Right Bounce</button>
-				<button data-clear="1500" data-efect="enter-left-bounce">Enter Left Bounce</button>
-				<button data-clear="1500" data-efect="scale-bounce">Scale Bounce</button>
-				<button data-clear="1500" data-efect="jump-bounce">Jump Bounce</button>
-			</div>
-			<!-- fim do box -->
-
-			<div class="box">
-				<span>3</span>
-				<p class="titulo">Perspective</p>
-
-				<button data-clear="2000" data-efect="tree-flip-right">Tree Flip Right</button>
-				<button data-clear="2000" data-efect="tree-flip">Tree Flip</button>
-				<button data-clear="2000" data-efect="tree-flip-up">Tree Flip Up</button>
-				<button data-clear="2000" data-efect="tree-flip-down">Tree Flip Down</button>
-				<button data-clear="2000" data-efect="flip-left-bounce">Flip Left Bounce</button> 
-				<button data-clear="2000" data-efect="rotate-flip">Rotate Flip</button>
-				<button data-clear="2000" data-efect="flip-right-bounce">Flip Right Bounce</button>
-			</div>
-			<!-- fim do box -->
-
-			<div class="box">
-				<span>4</span>
-				<p class="titulo">Fading Entrances</p>
-
-				<button data-clear="1500" data-efect="flip-top">Flip Top</button>
-				<button data-clear="1500" data-efect="flip-left">Flip Left</button>
-				<button data-clear="1500" data-efect="flip-right">Flip Right</button>
-				<button data-clear="1500" data-efect="flip-bottom">Flip Bottom</button>
-			</div>
-			<!-- fim do box -->
-
-
-
-			<div class="box">
-				<span>5</span>
-				<p class="titulo">Rotate</p>
-
-				<button data-clear="1500" data-efect="rotate-flip-down">Rotate Flip Down</button>
-				<button data-clear="1500" data-efect="rotate-down-bounce">Rotate Down Bounce</button>
-				<button data-clear="1500" data-efect="rotate-out">Rotate Out</button>
-			</div>
-			<!-- fim do box -->
-
-
-			<div class="box">
-				<span>6</span>
-				<p class="titulo">Agreccives</p>
-
-		 		<button data-clear="2000" data-efect="flash-bang">Flash Bang</button>
-				<button data-clear="1000" data-efect="bomba">Bomba</button>
-			</div>
-			<!-- fim do box -->
-
-			<!-- NEW'S -->
-			<div class="box">
-				<span>7</span>
-				<p class="titulo">Legend</p>
-		 		<button data-clear="2000" data-efect="legend-down">Legend Down</button>
-		 		<button data-clear="2000" data-efect="legend-up">Legend Up</button>
-		 		<button data-clear="2000" data-efect="legend-left">Legend Left</button>
-		 		<button data-clear="2000" data-efect="legend-right">Legend Right</button>
-		 		<button data-clear="2000" data-efect="legend-flip">Legend Flip</button>
-			</div>
-			<!-- fim do box -->
-
-			<!-- NEW'S -->
-			<div class="box">
-				<span>8</span>
-				<p class="titulo">Portrait</p>
-
-		 		<button data-clear="1000" data-efect="portrait-before">Portrait Before</button>
-		 		<button data-clear="2000" data-efect="portrait-blur">Portrait Blur</button>
-		 		
-		 		<!-- ainda faltam -->
-			 		<button data-clear="1000" data-efect="portrait-blur-light">Portrait Blur Light</button>
-			 		<button data-clear="1000" data-efect="background-portrait">Background Portrait</button>
-				<!-- falta -->
-
-		 		<button data-clear="1000" data-efect="scale-before">Scale Before</button>
-
-			</div>
-			<!-- fim do box -->
-
-			<!-- NEW'S -->
-			<div class="box">
-				<span>9</span>
-				<p class="titulo">Rotate News</p>
-
-		 		<button data-efect="rotate-row">Rotate Row</button>
-			</div>
-			<!-- fim do box -->
-
-		</article>
-	</section>
-	<!-- fim da coluna direita -->
-
-	<footer id="footer">
-		<p>© All Animation - 2014</p>
-		<p>Front-end by <a href="https://plus.google.com/+Cl%C3%B3visNeto?rel=author">Clóvis Neto</a> - Design by: <a href="http://www.jeftar.bl.ee/">Jeftar Mascarenhas</a></p>
-	</footer>
-	
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+        &ltbutton&gtTrigger class go&lt/button&gt
+    </code></pre>
+                </div><!--//code-block-->
+                <br>
+    <p>Using jQuery:</p>
+                <div class="code-block">
+                    <pre>
+    <code class="language-javascript">
+        $("button").click(function(e){
+            e.preventDefault();
+            $(div).addClass('dance');
+        });
+                            </code>
+                    </pre>
+                <br>
+    <p>or vanilha js:</p>
+                <div class="code-block">
+                    <pre>
+    <code class="language-javascript">
+        document.querySelector('button').addEventListener('click',function(e){
+            e.preventDefault();
+            document.querySelector('div').classList.add('dance');
+        })
+                            </code>
+                    </pre>
+                </div><!--//code-block-->
+            </div><!--//block-->   
+            <div class="block">
+                <br>    
+                <h3 class="sub-title text-center">Full Documentation</h3>
+                <p class="text-center">You can read the full documentation on github</p>
+                <p class="text-center">
+                    <a class="btn btn-cta-primary" href="https://github.com/clovisdasilvaneto/all-animation" target="_blank">More on GitHub</a>
+                </p>
+            </div><!--//block-->
+            
+            </div><!--//docs-inner-->         
+        </div><!--//container-->
+    </section><!--//features-->
+    
+    <!-- ******LICENSE****** --> 
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+            <h2 class="title text-center">Donate</h2>
+                <div class="info">
+                    <p>We still have much to develop if you want to contribute , the framework code is open on github.</p>
+                </div><!--//info-->
+                <div class="cta-container">
+                    <div class="speech-bubble">                    
+                        <p class="intro">The team All Animation CSS3 needs your help if you want to keep the online project :)</p>
+                        <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
+                    </div><!--//speech-bubble-->
+                    <div class="btn-container  text-center">
+                        <!--//You need to generate your own PayPal button - https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside -->         
+                        <!--PayPal generated code starts-->
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="Y46LJNXGAVVWW">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        <!--//PayPal generated code ends-->                    
+                        
+                    </div><!--//btn-container-->
+                </div><!--//cta-container-->
+            </div><!--//license-inner-->
+        </div><!--//container-->
+    </section><!--//how-->
+    
+    <!-- ******CONTACT****** --> 
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center">Regarding any concerns or suggestions, you can contact by email: clovisdasilvaneto@gmail.com</p>
+                <div class="author-message">                      
+                    <div class="profile">
+                        <img class="img-responsive" src="assets/images/clovis-neto.jpg" alt="Clóvis Neto" style="border-radius:100%;" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">Hi developers, my name is Clovis Neto. I am Web Developer Engineer in recife</h3>
+                        <p>Am in love with javascript , like face new projects and always seeking to contribute and help in open source . I'm currently developing my own javascript library and updating the All Animation CSS3 to version 2.0</p> 
+                        <div class="source">
+                            <span class="name"><a href="https://clovisdasilvaneto.github.io" target="_blank">Clóvis Neto</a></span>
+                            <br />
+                            <span class="title">Web Developer Enginner</span>
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->                        
+                </div><!--//author-message-->
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Get Connected</h4>
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://twitter.com/Clovissneto" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/ClovisDaSilvaNeto" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://br.linkedin.com/in/clovisdasilvaneto"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/clovisdasilvaneto"><i class="fa fa-github"></i></a></li>  
+                        <li class="last"><a href="mailto: clovisdasilvaneto@gmail.com"><i class="fa fa-envelope"></i></a></li>              
+                    </ul>
+                </div><!--//info-->
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->  
+      
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">Developer with <i class="fa fa-heart"></i> by <a href="http://clovisdasilvaneto.github.io" target="_blank">Clóvis Neto</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/js/main.js"></script>       
 </body>
-</html>
+</html> 
+
