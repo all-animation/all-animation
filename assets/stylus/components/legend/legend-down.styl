@@ -1,0 +1,31 @@
+
+.legend-down, .legend-down:before {
+	stateInitial(1, visible);
+}	
+
+.legend-down:before {
+	@extend .befores;
+	background: color;
+	setAnimation(legendDown 1 0.5s ease-out);
+}
+
+/* LEGEND DOWN */
+@-webkit-keyframes legendDown {
+	0% {top:0; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-moz-keyframes legendDown {
+	0% {top:0; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-ms-keyframes legendDown {
+	0% {top:0; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-o-keyframes legendDown {
+	0% {top:0; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}@keyframes legendDown {
+	0% {top:0; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}

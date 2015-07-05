@@ -1,0 +1,19 @@
+{
+  "name": "All Animation CSS3",
+  "version": "1.1.0",
+  "description": "The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / Stylus",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-concat": "2.5.2",
+    "gulp-minify-css": "0.5.1",
+    "gulp-notify": "2.2.0",
+    "gulp-stylus": "2.0.1"
+  },
+  "author": "Clóvis Neto",
+  "github": "https://github.com/clovisdasilvaneto/all-animation",
+  "license": "public"
+}

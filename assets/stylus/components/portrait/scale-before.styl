@@ -1,0 +1,26 @@
+.scale-before, .scale-before:before {
+	stateInitial(1, visible);
+}
+
+.scale-before:before {
+	@extend .befores; 
+	background: color;
+	setAnimation(scaleBefore 1 0.5s ease-out);
+}
+
+/* SCALE BEFORE */
+@-webkit-keyframes scaleBefore {
+	0% {-webkit-transform:scale(1.5);}100%{-webkit-transform:scale(1);}
+}
+@-moz-keyframes scaleBefore {
+	0% {-webkit-transform:scale(1.5);}100%{-webkit-transform:scale(1);}
+}
+@-ms-keyframes scaleBefore {
+	0% {-webkit-transform:scale(1.5);}100%{-webkit-transform:scale(1);}
+}
+@-o-keyframes scaleBefore {
+	0% {-webkit-transform:scale(1.5);}100%{-webkit-transform:scale(1);}
+}
+@keyframes scaleBefore {
+	0% {-webkit-transform:scale(1.5);}100%{-webkit-transform:scale(1);}
+}

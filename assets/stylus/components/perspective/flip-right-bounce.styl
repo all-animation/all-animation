@@ -1,0 +1,42 @@
+.flip-right-bounce {
+	setAnimation(flipRightBounce 1s ease-in-out);
+	stateInitial(1,visible);
+}
+
+/* FLIP RIGHT BOUNCE */
+@-webkit-keyframes flipRightBounce {
+	0% {
+		opacity: 0; -webkit-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -webkit-transform:rotateY(5deg);
+	}80% { -webkit-transform:rotateY(-20deg);}
+	100%{-webkit-transform:rotateY(0deg);}
+}@-moz-keyframes flipRightBounce {
+	0% {
+		opacity: 0; -moz-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -moz-transform:rotateY(5deg);
+	}80% { -moz-transform:rotateY(-20deg);}
+	100%{-moz-transform:rotateY(0deg);}
+}@-ms-keyframes flipRightBounce {
+	0% {
+		opacity: 0; -ms-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -ms-transform:rotateY(5deg);
+	}80% { -ms-transform:rotateY(-20deg);}
+	100%{-ms-transform:rotateY(0deg);}
+}@-o-keyframes flipRightBounce {
+	0% {
+		opacity: 0; -o-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -o-transform:rotateY(5deg);
+	}80% { -o-transform:rotateY(-20deg);}
+	100%{-o-transform:rotateY(0deg);}
+}@keyframes flipRightBounce {
+	0% {
+		opacity: 0;transform:rotateY(-70deg);
+	}50%{
+		opacity: 1;transform:rotateY(5deg);
+	}80% {transform:rotateY(-20deg);}
+	100% {transform:rotateY(0deg);}
+}

@@ -1,0 +1,31 @@
+.legend-left, .legend-left:before {
+	stateInitial(1, visible);
+}	
+
+.legend-left:before {
+	@extend .befores;
+	background: color;
+	setAnimation(legendLeft 1 0.5s ease-out);
+}
+
+/* LEGEND LEFT */
+@-webkit-keyframes legendLeft {
+	0% {left:0%; width: 0;}
+	100%{ left: 9px; width: 92%;}
+}
+@-moz-keyframes legendLeft {
+	0% {left:0%; width: 0;}
+	100%{ left: 9px; width: 92%;}
+}
+@-ms-keyframes legendLeft {
+	0% {left:0%; width: 0;}
+	100%{ left: 9px; width: 92%;}
+}
+@-o-keyframes legendLeft {
+	0% {left:0%; width: 0;}
+	100%{ left: 9px; width: 92%;}
+}
+@keyframes legendLeft {
+	0% {left:0%; width: 0;}
+	100%{ left: 9px; width: 92%;}
+}

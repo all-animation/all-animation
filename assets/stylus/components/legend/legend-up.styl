@@ -1,0 +1,30 @@
+.legend-up, .legend-up:before {
+	stateInitial(1, visible);
+}	
+
+.legend-up:before {
+	@extend .befores;
+	background: color;
+	setAnimation(legendUp 1 0.5s ease-out);
+}
+
+/* LEGEND Up */
+@-webkit-keyframes legendUp {
+	0% {top:70%; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-moz-keyframes legendUp {
+	0% {top:70%; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-ms-keyframes legendUp {
+	0% {top:70%; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}
+@-o-keyframes legendUp {
+	0% {top:70%; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}@keyframes legendUp {
+	0% {top:70%; height: 0;}
+	100%{ height: 64%; top: 9px;}
+}

@@ -1,0 +1,26 @@
+.flip-right {
+	setAnimation(flipRight 1 1s ease-out);
+	stateInitial(1,visible);
+}
+
+/* FLIP RIGHT */
+@-webkit-keyframes flipRight {
+	0%{-webkit-transform: translateX(100px);opacity: 0;}
+	70%{-webkit-transform: translateX(0);opacity: 1;}
+}
+@-moz-keyframes flipRight {
+	0%{-moz-transform: translateX(100px);opacity: 0;}
+	70%{-moz-transform: translateX(0);opacity: 1;}
+}
+@-ms-keyframes flipRight {
+	0%{-ms-transform: translateX(100px);opacity: 0;}
+	70%{-ms-transform: translateX(0);opacity: 1;}
+}
+@-o-keyframes flipRight {
+	0%{-o-transform: translateX(100px);opacity: 0;}
+	70%{-o-transform: translateX(0);opacity: 1;}
+}
+@keyframes flipRight {
+	0%{transform: translateX(100px);opacity: 0;}
+	70%{transform: translateX(0);opacity: 1;}
+}

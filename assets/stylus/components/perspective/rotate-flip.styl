@@ -1,0 +1,36 @@
+.rotate-flip {
+	setAnimation(rotateFlip 1 1s linear);
+	stateInitial(1,visible);
+}
+
+/* ROTATE FLIP */
+@-webkit-keyframes rotateFlip {
+	0% {-webkit-transform-origin: 50%;}
+	40%{-webkit-transform: rotateY(70deg); opacity: 0;}
+	60%{-webkit-transform: rotateY(70deg); opacity: 0;}
+	100%{-webkit-transform: rotateY(0deg);opacity: 1;}
+}
+@-moz-keyframes rotateFlip {
+	0% {-moz-transform-origin: 50%;}
+	40%{-moz-transform: rotateY(70deg); opacity: 0;}
+	60%{-moz-transform: rotateY(70deg); opacity: 0;}
+	100%{-moz-transform: rotateY(0deg);opacity: 1;}
+}
+@-ms-keyframes rotateFlip {
+	0% {-ms-transform-origin: 50%;}
+	40%{-ms-transform: rotateY(70deg); opacity: 0;}
+	60%{-ms-transform: rotateY(70deg); opacity: 0;}
+	100%{-ms-transform: rotateY(0deg);opacity: 1;}
+}
+@-o-keyframes rotateFlip {
+	0% {-o-transform-origin: 50%;}
+	40%{-o-transform: rotateY(70deg); opacity: 0;}
+	60%{-o-transform: rotateY(70deg); opacity: 0;}
+	100%{-o-transform: rotateY(0deg);opacity: 1;}
+}
+@keyframes rotateFlip {
+	0% {transform-origin: 50%;}
+	40%{transform: rotateY(70deg); opacity: 0;}
+	60%{transform: rotateY(70deg); opacity: 0;}
+	100%{transform: rotateY(0deg);opacity: 1;}
+}

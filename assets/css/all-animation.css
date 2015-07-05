@@ -8,6 +8,7 @@
 
 .legend-flip:before,.legend-flip {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-perspective: 600;
 	perspective: 600;
 	-webkit-backface-visibility: hidden;
@@ -17,6 +18,7 @@
 
 .legend-flip {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: legendFlip 1.2s ease-out;
 	-moz-animation: legendFlip 1.2s ease-out;
 	-ms-animation: legendFlip 1.2s ease-out;
@@ -101,7 +103,8 @@
 	animation: legendRight 1 0.5s ease-out;
 }	
 
-.scale-before, .legend-down, .legend-up, .legend-left,.portrait-before,.portrait-blur, .legend-right { opacity: 1!important;}
+.scale-before, .legend-down, .legend-up, .legend-left,.portrait-before,.portrait-blur, .legend-right { opacity: 1!important;
+visibility: visible!important;}
 
 .scale-before:before, .legend-down:before, .legend-up:before, .legend-left:before, .legend-right:before {background: rgba(0,0,0,0.5)}
 .portrait-before:before,.portrait-blur:before,.scale-before:before,.legend-down:before, .legend-up:before, .legend-left:before, .legend-right:before {
@@ -116,6 +119,7 @@
 
 .portrait-blur:before {
 	opacity: 1!important;
+	visibility: visible!important;
 	box-shadow: inset 0 0 100px 100px rgba(0,0,0,0.5); 
 	-webkit-animation: portraitBlur 1 0.6s ease-out;
 	-moz-animation: portraitBlur 1 0.6s ease-out;
@@ -125,6 +129,7 @@
 
 .portrait-before:before {
 	opacity: 1!important;
+	visibility: visible!important;
 	box-shadow: inset 0 0 0 100px rgba(0,0,0,0.5);
 	-webkit-animation: portraitBefore 1 0.3s ease-out;
 	-moz-animation: portraitBefore 1 0.3s ease-out;
@@ -135,6 +140,7 @@
 
 .tree-flip {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: treeFlip 1 1s ease-in-out;
 	-moz-animation: treeFlip 1 1s ease-in-out;
 	-ms-animation: treeFlip 1 1s ease-in-out;
@@ -153,6 +159,7 @@
 }
 .tree-flip-right {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: treeFlipRight 1 1s ease-in-out;
 	-moz-animation: treeFlipRight 1 1s ease-in-out;
 	-ms-animation: treeFlipRight 1 1s ease-in-out;
@@ -171,6 +178,7 @@
 }
 .tree-flip-up {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: treeFlipUp 1 1s ease-in-out;
 	-moz-animation: treeFlipUp 1 1s ease-in-out;
 	-ms-animation: treeFlipUp 1 1s ease-in-out;
@@ -189,6 +197,7 @@
 }
 .tree-flip-down {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: treeFlipDown 1 1s ease-in-out;
 	-moz-animation: treeFlipDown 1 1s ease-in-out;
 	-ms-animation: treeFlipDown 1 1s ease-in-out;
@@ -208,6 +217,7 @@
 
 .four-rock {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: fourRock 1 2s ease-out;
 	-o-animation: fourRock 1 2s ease-out;
 	-moz-animation: fourRock 1 2s ease-out;
@@ -236,10 +246,12 @@
 	-ms-animation: journal 1 2s ease-in;
 	animation: journal 1 2s ease-in;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .flash-bang {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: flashBang 1 2s linear;
 	-o-animation: flashBang 1 2s linear;
 	-moz-animation: flashBang 1 2s linear;
@@ -248,6 +260,7 @@
 }
 .dance {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: dance 1 2s linear;
 	-o-animation: dance 1 2s linear;
 	-moz-animation: dance 1 2s linear;
@@ -261,6 +274,7 @@
 	-ms-animation: flipLeft 1 1s ease-out;
 	animation: flipLeft 1 1s ease-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .flip-top {
 	-webkit-animation: flipTop 1 1s ease-out;
@@ -269,6 +283,7 @@
 	-ms-animation: flipTop 1 1s ease-out;
 	animation: flipTop 1 1s ease-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .flip-right {
 	-webkit-animation: flipRight 1 1s ease-out;
@@ -277,6 +292,7 @@
 	-ms-animation: flipRight 1 1s ease-out;
 	animation: flipRight 1 1s ease-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .flip-bottom {
 	-webkit-animation: flipBottom 1 1s ease-out;
@@ -285,6 +301,7 @@
 	-ms-animation: flipBottom 1 1s ease-out;
 	animation: flipBottom 1 1s ease-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .rotate-flip {
 	-webkit-animation: rotateFlip 1 1s linear;
@@ -293,9 +310,11 @@
 	-ms-animation: rotateFlip 1 1s linear;
 	animation: rotateFlip 1 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .rotate-flip-down {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: rotateFlipDown 1 1s linear;
 	-o-animation: rotateFlipDown 1 1s linear;
 	-moz-animation: rotateFlipDown 1 1s linear;
@@ -314,6 +333,7 @@
 
 .jump-bounce {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: jumpBounce 1 1.5s ease-in;
 	-o-animation: jumpBounce 1 1.5s ease-in;
 	-moz-animation: jumpBounce 1 1.5s ease-in;
@@ -345,6 +365,7 @@
 	-o-animation: enterDownBounce 1s linear;
 	animation: enterDownBounce 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .enter-up-bounce {
@@ -354,6 +375,7 @@
 	-o-animation: enterUpBounce 1s linear;
 	animation: enterUpBounce 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .enter-left-bounce {
@@ -363,6 +385,7 @@
 	-o-animation: enterLeftBounce 1s linear;
 	animation: enterLeftBounce 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 .enter-right-bounce {
 	-webkit-animation: enterRightBounce 1s linear;
@@ -371,6 +394,7 @@
 	-o-animation: enterRightBounce 1s linear;
 	animation: enterRightBounce 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .scale-bounce {
@@ -380,10 +404,12 @@
 	-o-animation: scaleBounce 1s linear;
 	animation: scaleBounce 1s linear;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .jamp {
 	opacity: 1!important;
+	visibility: visible!important;
 	-webkit-animation: jamp 1s linear;
 	-moz-animation: jamp 1s linear;
 	-ms-animation: jamp 1s linear;
@@ -398,6 +424,7 @@
 	-o-animation: flipLeftBounce 1s ease-in-out;
 	animation: flipLeftBounce 1s ease-in-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 
@@ -408,10 +435,12 @@
 	-o-animation: flipRightBounce 1s ease-in-out;
 	animation: flipRightBounce 1s ease-in-out;
 	opacity: 1!important;
+	visibility: visible!important;
 }
 
 .pulse {
 	opacity: 1!important;
+	visibility: visible!important;
   -webkit-animation: pulse infinite alternate linear 0.5s;
   -moz-animation: pulse infinite alternate linear 0.5s;
   -o-animation: pulse infinite alternate linear 0.5s;

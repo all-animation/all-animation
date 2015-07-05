@@ -1,0 +1,35 @@
+.dance {
+	stateInitial(1,visible); 
+	setAnimation(dance 1 2s linear);
+}
+
+@-webkit-keyframes dance {
+	0%,10%,20%{-webkit-transform:rotateZ(10deg);}
+	5%,15%,25%{-webkit-transform:rotateZ(-10deg)}
+	35%,60%,100%{-webkit-transform:scale(1) rotateZ(0deg); box-shadow:inset 0 0 0 0 transparent;}
+	40% {-webkit-transform:scale(1.3); box-shadow:inset 0 0 0 0; box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);}
+}
+@-moz-keyframes dance {
+	0%,10%,20%{-moz-transform:rotateZ(10deg);}
+	5%,15%,25%{-moz-transform:rotateZ(-10deg)}
+	35%,60%,100%{-moz-transform:scale(1) rotateZ(0deg); box-shadow:inset 0 0 0 0 transparent;}
+	40% {-moz-transform:scale(1.3); box-shadow:inset 0 0 0 0; box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);}
+}
+@-ms-keyframes dance {
+	0%,10%,20%{-ms-transform:rotateZ(10deg);}
+	5%,15%,25%{-ms-transform:rotateZ(-10deg)}
+	35%,60%,100%{-ms-transform:scale(1) rotateZ(0deg); box-shadow:inset 0 0 0 0 transparent;}
+	40% {-ms-transform:scale(1.3); box-shadow:inset 0 0 0 0; box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);}
+}
+@-o-keyframes dance {
+	0%,10%,20%{-o-transform:rotateZ(10deg);}
+	5%,15%,25%{-o-transform:rotateZ(-10deg)}
+	35%,60%,100%{-o-transform:scale(1) rotateZ(0deg); box-shadow:inset 0 0 0 0 transparent;}
+	40% {-o-transform:scale(1.3); box-shadow:inset 0 0 0 0; box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);}
+}
+@keyframes dance {
+	0%,10%,20%{transform:rotateZ(10deg);}
+	5%,15%,25%{transform:rotateZ(-10deg)}
+	35%,60%,100%{transform:scale(1) rotateZ(0deg); box-shadow:inset 0 0 0 0 transparent;}
+	40% {transform:scale(1.3); box-shadow:inset 0 0 0 0; box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);}
+} 

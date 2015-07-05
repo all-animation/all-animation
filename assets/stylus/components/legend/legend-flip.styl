@@ -1,0 +1,87 @@
+.legend-flip, .legend-flip:before {
+	stateInitial(1, visible);
+	setBackface(hidden)
+	setTreed(600)
+}	
+
+.legend-flip {
+	setAnimation(legendFlip 1.2s ease-out);
+	setTransform(rotateY(-180deg));
+}
+
+.legend-flip:before {
+	@extend .befores;
+	setAnimation(legendFlipBefore 1.2s ease-out);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #00D7D7;
+	content: "";
+	z-index: 1000;
+}
+
+/* LEGEND FLIP BEFORE */
+@-webkit-keyframes legendFlipBefore {
+	0% {-webkit-transform:rotateY(-180deg);}
+	60% {-webkit-transform:rotateY(30deg);}
+	80% {-webkit-transform:rotateY(-30deg);}
+	100% {-webkit-transform:rotateY(0);}
+}
+@-moz-keyframes legendFlipBefore {
+	0% {-moz-transform:rotateY(-180deg);}
+	60% {-moz-transform:rotateY(30deg);}
+	80% {-moz-transform:rotateY(-30deg);}
+	100% {-moz-transform:rotateY(0);}
+}
+@-ms-keyframes legendFlipBefore {
+	0% {-ms-transform:rotateY(-180deg);}
+	60% {-ms-transform:rotateY(30deg);}
+	80% {-ms-transform:rotateY(-30deg);}
+	100% {-ms-transform:rotateY(0);}
+}
+@-o-keyframes legendFlipBefore {
+	0% {-o-transform:rotateY(-180deg);}
+	60% {-o-transform:rotateY(30deg);}
+	80% {-o-transform:rotateY(-30deg);}
+	100% {-o-transform:rotateY(0);}
+}
+@keyframes legendFlipBefore {
+	0% {transform:rotateY(-180deg);}
+	60% {transform:rotateY(30deg);}
+	80% {transform:rotateY(-30deg);}
+	100% {transform:rotateY(0);}
+}
+
+/* LEGEND FLIP */
+@-webkit-keyframes legendFlip {
+	0% {-webkit-transform:rotateY(0);}
+	60% {-webkit-transform:rotateY(-210deg);}
+	100% {-webkit-transform:rotateY(-150deg);}
+	100% {-webkit-transform:rotateY(-180deg);}
+}
+@-moz-keyframes legendFlip {
+	0% {-moz-transform:rotateY(0);}
+	60% {-moz-transform:rotateY(-210deg);}
+	100% {-moz-transform:rotateY(-150deg);}
+	100% {-moz-transform:rotateY(-180deg);}
+}
+@-ms-keyframes legendFlip {
+	0% {-ms-transform:rotateY(0);}
+	60% {-ms-transform:rotateY(-210deg);}
+	100% {-ms-transform:rotateY(-150deg);}
+	100% {-ms-transform:rotateY(-180deg);}
+}
+@-o-keyframes legendFlip {
+	0% {-o-transform:rotateY(0);}
+	60% {-o-transform:rotateY(-210deg);}
+	100% {-o-transform:rotateY(-150deg);}
+	100% {-o-transform:rotateY(-180deg);}
+}
+@keyframes legendFlip {
+	0% {transform:rotateY(0);}
+	60% {transform:rotateY(-210deg);}
+	100% {transform:rotateY(-150deg);}
+	100% {transform:rotateY(-180deg);}
+}
