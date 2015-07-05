@@ -1,0 +1,28 @@
+.tree-flip-up {
+	stateInitial(1,visible);
+	setAnimation(treeFlipUp 1 1s ease-in-out);
+	setTransform(rotateX(90deg));
+	setOrigin(100% 0);
+}
+
+/* TREE FLIP UP */
+@-webkit-keyframes treeFlipUp {
+	0% {-webkit-transform: rotateX(0);}
+	100%{-webkit-transform: rotateX(90deg);}
+}
+@-moz-keyframes treeFlipUp {
+	0% {-moz-transform: rotateX(0);}
+	100%{-moz-transform: rotateX(90deg);}
+}
+@-ms-keyframes treeFlipUp {
+	0% {-ms-transform: rotateX(0);}
+	100%{-ms-transform: rotateX(90deg);}
+}
+@-o-keyframes treeFlipUp {
+	0% {-o-transform: rotateX(0);}
+	100%{-o-transform: rotateX(90deg);}
+}
+@keyframes treeFlipUp {
+	0% {transform: rotateX(0);}
+	100%{transform: rotateX(90deg);}
+}

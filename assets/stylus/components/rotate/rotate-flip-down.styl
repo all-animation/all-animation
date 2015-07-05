@@ -1,0 +1,36 @@
+.rotate-flip-down {
+	stateInitial(1,visible);
+	setAnimation(rotateFlipDown 1 1s linear);
+}
+
+/* ROTATE FLIP */
+@-webkit-keyframes rotateFlipDown {
+	0% {-webkit-transform-origin: 50%;}
+	40%{-webkit-transform: rotateX(70deg); opacity: 0;}
+	60%{-webkit-transform: rotateX(70deg); opacity: 0;}
+	100%{-webkit-transform: rotateX(0deg);opacity: 1;}
+}
+@-moz-keyframes rotateFlipDown {
+	0% {-moz-transform-origin: 50%;}
+	40%{-moz-transform: rotateX(70deg); opacity: 0;}
+	60%{-moz-transform: rotateX(70deg); opacity: 0;}
+	100%{-moz-transform: rotateX(0deg);opacity: 1;}
+}
+@-ms-keyframes rotateFlipDown {
+	0% {-ms-transform-origin: 50%;}
+	40%{-ms-transform: rotateX(70deg); opacity: 0;}
+	60%{-ms-transform: rotateX(70deg); opacity: 0;}
+	100%{-ms-transform: rotateX(0deg);opacity: 1;}
+}
+@-o-keyframes rotateFlipDown {
+	0% {-o-transform-origin: 50%;}
+	40%{-o-transform: rotateX(70deg); opacity: 0;}
+	60%{-o-transform: rotateX(70deg); opacity: 0;}
+	100%{-o-transform: rotateX(0deg);opacity: 1;}
+}
+@keyframes rotateFlipDown {
+	0% {transform-origin: 50%;}
+	40%{transform: rotateX(70deg); opacity: 0;}
+	60%{transform: rotateX(70deg); opacity: 0;}
+	100%{transform: rotateX(0deg);opacity: 1;}
+}

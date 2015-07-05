@@ -1,0 +1,62 @@
+.enter-down-bounce {
+	stateInitial(1,visible);
+	setAnimation(enterDownBounce 1s linear);
+} 
+
+
+/* ENTER DOWN BOUNCE */
+@-webkit-keyframes enterDownBounce {
+	0% {
+		-webkit-transform:translateY(-220px);  opacity: 0;
+	}50%{
+		-webkit-transform:translateY(0px); 
+	}70%{-webkit-transform:translateY(-20px); }
+	
+	100%{
+		-webkit-transform:translateY(0);  opacity: 1;
+	}
+}
+@-moz-keyframes enterDownBounce {
+	0% {
+		-moz-transform:translateY(-220px);  opacity: 0;
+	}50%{
+		-moz-transform:translateY(0px); 
+	}70%{-moz-transform:translateY(-20px); }
+	
+	100%{
+		-moz-transform:translateY(0);  opacity: 1;
+	}
+}
+@-ms-keyframes enterDownBounce {
+	0% {
+		-ms-transform:translateY(-220px);  opacity: 0;
+	}50%{
+		-ms-transform:translateY(0px); 
+	}70%{-ms-transform:translateY(-20px); }
+	
+	100%{
+		-ms-transform:translateY(0);  opacity: 1;
+	}
+}
+@-o-keyframes enterDownBounce {
+	0% {
+		-o-transform:translateY(-220px);  opacity: 0;
+	}50%{
+		-o-transform:translateY(0px); 
+	}70%{-o-transform:translateY(-20px); }
+	
+	100%{
+		-o-transform:translateY(0);  opacity: 1;
+	}
+}
+@keyframes enterDownBounce {
+	0% {
+		transform:translateY(-220px);  opacity: 0;
+	}50%{
+		transform:translateY(0px); 
+	}70%{transform:translateY(-20px); }
+	
+	100%{
+		transform:translateY(0);  opacity: 1;
+	}
+}

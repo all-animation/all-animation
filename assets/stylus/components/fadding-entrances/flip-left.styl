@@ -1,0 +1,27 @@
+.flip-left {
+	setAnimation(flipLeft 1 1s ease-out);
+	stateInitial(1,visible);
+}
+
+
+/* FLIP LEFT */
+@-webkit-keyframes flipLeft {
+	0%{-webkit-transform: translateX(-100px);opacity: 0;}
+	70%{-webkit-transform: translateX(0);opacity: 1;}
+}
+@-moz-keyframes flipLeft {
+	0%{-moz-transform: translateX(-100px);opacity: 0;}
+	70%{-moz-transform: translateX(0);opacity: 1;}
+}
+@-ms-keyframes flipLeft {
+	0%{-ms-transform: translateX(-100px);opacity: 0;}
+	70%{-ms-transform: translateX(0);opacity: 1;}
+}
+@-o-keyframes flipLeft {
+	0%{-o-transform: translateX(-100px);opacity: 0;}
+	70%{-o-transform: translateX(0);opacity: 1;}
+}
+@keyframes flipLeft {
+	0%{transform: translateX(-100px);opacity: 0;}
+	70%{transform: translateX(0);opacity: 1;}
+}

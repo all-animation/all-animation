@@ -1,0 +1,28 @@
+.tree-flip-down {
+	stateInitial(1,visible);
+	setAnimation(treeFlipDown 1 1s ease-in-out);
+	setTransform(rotateX(90deg));
+	setOrigin(0 100%);
+}
+
+/* TREE FLIP DOWN */
+@-webkit-keyframes treeFlipDown {
+	0% {-webkit-transform: rotateX(0);}
+	100%{-webkit-transform: rotateX(-90deg);}
+}
+@-moz-keyframes treeFlipDown {
+	0% {-moz-transform: rotateX(0);}
+	100%{-moz-transform: rotateX(-90deg);}
+}
+@-ms-keyframes treeFlipDown {
+	0% {-ms-transform: rotateX(0);}
+	100%{-ms-transform: rotateX(-90deg);}
+}
+@-o-keyframes treeFlipDown {
+	0% {-o-transform: rotateX(0);}
+	100%{-o-transform: rotateX(-90deg);}
+}
+@keyframes treeFlipDown {
+	0% {transform: rotateX(0);}
+	100%{transform: rotateX(-90deg);}
+}
