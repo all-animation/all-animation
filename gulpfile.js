@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 	src = 'assets';
 
 gulp.task('css', function() {
-	gulp.src('./'+src+'/stylus/main.styl')
+	gulp.src('./'+src+'/stylus/all-animation.styl')
 		.pipe(stylus())
 		.pipe(minifycss())
 		.pipe(gulp.dest('./'+src+'/css'))
@@ -14,7 +14,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('dist-css', function() {
-	gulp.src('./'+src+'/css/main.css')
+	gulp.src('./'+src+'/css/all-animation.css')
 		.pipe(concat('./all-animation.min.css'))
 		.pipe(gulp.dest('./'+src+'/css'))
 		.pipe(notify('All animaiton is begin created!'));
