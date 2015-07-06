@@ -3,7 +3,7 @@ All Animation
 
 All Animation.css is a set of animations, fun to let your sexiest project. They are cross-browser animations but that will emphasize your pages as sliders , 3D effects 's .
 
-change language <a href="readme-portuguese.md">click here</a>
+move to the <a href="readme-portuguese.md">Portuguese language</a>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
 <a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
