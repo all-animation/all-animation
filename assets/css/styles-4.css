@@ -75,6 +75,34 @@ a.btn-cta-secondary,
   font-weight: 600;
   text-transform: uppercase;
 }
+#download-content {
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -ms-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.46);
+  width: 100%;
+  z-index: 29000;
+}
+
+#download:checked ~ #download-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+#download-content article {
+  text-align: center;
+  padding: 20px 20%; 
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
   background: #00d76b;
