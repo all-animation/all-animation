@@ -1,25 +1,24 @@
 All Animation
 =============
 
-All Animation.css is a set of animations, fun to let your sexiest project. They are cross-browser animations but that will emphasize your pages as sliders , 3D effects 's .
+All Animation.css é um conjunto de animações, divertidas para deixar seu projeto mais sexy. São animações cross-browser que darão mas ênfase a suas páginas como controles deslizantes, efeitos 3D’s..
 
-change language <a href="readme-portuguese.md">click here</a>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
-<a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
+<a href="http://clovisdasilvaneto.github.io/all-animation/">Veja uma demo dos efeitos que este imenso framework pode fazer :D</a>
 
 
 ### Contribuidores:
-If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
+Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
 
 ### Como Usar:
 
-It's easy to use this css framework: D we will see step by step how to use it ...
+É facil utilizar este framework css :D, veremos passo a passo como utilizá-lo...
 
 
-### Step 1, include the necessary files in the head , so that the framework work correct:
+### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
 
-download the all animation: <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">click here</a>
+baixe o all animation, <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">clicando aqui</a>
 
 ```
 <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
@@ -27,7 +26,7 @@ download the all animation: <a href="http://clovisdasilvaneto.github.io/all-anim
 
 ```
 
-### Step 2, html:
+### Passo 2, html:
 
 ```
 <div id="animation"></div>
@@ -36,7 +35,7 @@ download the all animation: <a href="http://clovisdasilvaneto.github.io/all-anim
 
 ```
 
-### Step 3, Jquery:
+### Passo 3, Jquery:
 
 ```js
 $(".anny-class").click(function(){
@@ -44,11 +43,9 @@ $(".anny-class").click(function(){
 });
 ```
 
-### Optional
+Caso queira adicionar o efeito em algum determinado tempo, é colocar um temporizador ;)
 
-If you want to add the effect at some specified time , it is to place a timer ;)
-
-ex, placing an animation in a particular element , after 2 seconds:
+ex, colocando uma animação em um determinado elemento, depois de 2 segundos:
 
 ```js
 setTimeout(function(){
@@ -56,9 +53,9 @@ setTimeout(function(){
 },2000);
 ```
 
-### Caution:
+### Atenção:
 
-If you want to add some animation on an element that has suffered another animation of this framework , or want to restart the animation , you have to remove the last animation and submit your. Ex:
+Caso você queira adicionar alguma animação em um elemento que já sofreu uma outra animação deste framework, ou queira reiniciar a animação, você terá que remover a ultima animação e inserir a sua, ex:
 
 
 ```js
@@ -66,7 +63,7 @@ If you want to add some animation on an element that has suffered another animat
 ```
 
 
-We have several classes in place of the journal class, let's see which are:
+Temos várias classe no lugar da class journal, vejamos quais são:
 
 ### Especiais:
 
@@ -121,9 +118,7 @@ We have several classes in place of the journal class, let's see which are:
  <li>bomba</li>
 </ul>
 
-<br>
-<br>
 
-####Credits: 
+#### Créditos
 
-<a href="http://clovisdasilvaneto.github.io" target="_blank">Clóvis Neto</a>
+<a href="http://clovisdasilvaneto.github.io">Clóvis Neto</a>
