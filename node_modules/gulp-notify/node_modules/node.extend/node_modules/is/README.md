@@ -113,6 +113,9 @@ $ component install enricomarino/is
  - ``is.base64`` (value)
  - ``is.hex`` (value)
 
+### ES6 Symbols
+ - ``is.symbol`` (value)
+
 
 ## Contributors
 

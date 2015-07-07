@@ -73,7 +73,7 @@ function extend() {
 /**
  * @public
  */
-extend.version = '1.0.8';
+extend.version = '1.1.3';
 
 /**
  * Exports module.
