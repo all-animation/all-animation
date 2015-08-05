@@ -1,0 +1,89 @@
+&.tab-panel, &.tab-slide-panel {
+	ul {
+		position: relative; 
+		margin-bottom: 20px;
+		border-bottom:solid 1px #ccc;
+
+		&:after {
+			clear: both;
+			content:"";
+			display: block;
+		}
+	}
+
+	li {
+		float: left;
+	}
+
+	label {
+		padding: 10px 20px;
+		border: solid 1px transparent;
+		margin-bottom: -1px;
+		border-top-left-radius: 5px;		
+		background: transparent; 
+		border-top-right-radius: 5px;
+		cursor: pointer;
+		font-size: 14px;
+	}
+
+	div {
+		opacity: 0; 
+		visibility: hidden; 
+		position: absolute; 
+		border-radius: 5px;
+		left: 0;
+		width: 100%;
+		background: rgb(231, 230, 230) none repeat scroll 0% 0%;
+		margin-top: 0;
+		padding: 14px;
+		border: 1px solid rgb(204, 204, 204);
+		font-size: 14px;
+	}
+
+	li:first-child div {
+		border-top-left-radius: 0;
+	}
+
+	input:checked ~ label {
+		border: solid 1px #ccc;
+		border-bottom:none;
+		background: rgb(231, 230, 230) none repeat scroll 0% 0%;
+		z-index: 222;
+		position: relative;
+	}
+
+	input:checked ~ label, div {
+		color: rgb(164, 164, 164)!important;
+	}
+
+	input:checked ~ div {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+&.tab-panel {
+	div {
+		transition(all ease-out 0.3s); 
+	}
+
+	input:checked ~ div {
+		transitionTimeDelay(0.6s,0.4s);
+	}
+}
+
+
+&.tab-slide-panel {
+	div {
+		height: 0;
+		padding: 0 10px;
+		overflow: hidden;
+		transition(padding ease-out 0.3s, height ease-out 0.3s); 
+	}
+
+	input:checked ~ div {
+		opacity: 1;
+		padding:15px 10px;
+		height: inherit;
+	}
+}

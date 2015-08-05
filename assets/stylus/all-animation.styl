@@ -3,56 +3,77 @@
 @import "mixins/defaults"
 
 /***** Especials ******/ 
-@import "components/especials/dance"
-@import "components/especials/journal"
-@import "components/especials/pulse"
-@import "components/especials/pulse-slow"
-@import "components/especials/jamp"
-@import "components/especials/four-rock"
+@import "animations/especials/dance"
+@import "animations/especials/journal"
+@import "animations/especials/pulse"
+@import "animations/especials/pulse-slow"
+@import "animations/especials/jamp"
+@import "animations/especials/four-rock"
 
 /***** Bounce ******/
-@import "components/bounce/enter-up-bounce"
-@import "components/bounce/enter-down-bounce"
-@import "components/bounce/enter-left-bounce"
-@import "components/bounce/enter-right-bounce"
-@import "components/bounce/scale-bounce"
-@import "components/bounce/jump-bounce"
+@import "animations/bounce/enter-up-bounce"
+@import "animations/bounce/enter-down-bounce"
+@import "animations/bounce/enter-left-bounce"
+@import "animations/bounce/enter-right-bounce"
+@import "animations/bounce/scale-bounce"
+@import "animations/bounce/jump-bounce"
 
 /***** Perspective ******/
-@import "components/perspective/tree-flip"
-@import "components/perspective/tree-flip-right"
-@import "components/perspective/tree-flip-up"
-@import "components/perspective/tree-flip-down"
-@import "components/perspective/flip-left-bounce"
-@import "components/perspective/flip-right-bounce"
-@import "components/perspective/rotate-flip"
+@import "animations/perspective/tree-flip"
+@import "animations/perspective/tree-flip-right"
+@import "animations/perspective/tree-flip-up"
+@import "animations/perspective/tree-flip-down"
+@import "animations/perspective/flip-left-bounce"
+@import "animations/perspective/flip-right-bounce"
+@import "animations/perspective/rotate-flip"
 
 /***** Fadding Entrances ******/
-@import "components/fadding-entrances/flip-left"
-@import "components/fadding-entrances/flip-right"
-@import "components/fadding-entrances/flip-top"
-@import "components/fadding-entrances/flip-bottom"
+@import "animations/fadding-entrances/flip-left"
+@import "animations/fadding-entrances/flip-right"
+@import "animations/fadding-entrances/flip-top"
+@import "animations/fadding-entrances/flip-bottom"
 
 /***** Rotate ******/
-@import "components/rotate/rotate-flip-down"
-@import "components/rotate/rotate-down-bounce"
-@import "components/rotate/rotate-out"
+@import "animations/rotate/rotate-flip-down"
+@import "animations/rotate/rotate-down-bounce"
+@import "animations/rotate/rotate-out"
 
 /***** Agreccives ******/
-@import "components/agreccives/flash-bang"
-@import "components/agreccives/bomba"
+@import "animations/agreccives/flash-bang"
+@import "animations/agreccives/bomba"
 
 /***** Legends ******/
-@import "components/legend/legend-down" 
-@import "components/legend/legend-up"
-@import "components/legend/legend-left"
-@import "components/legend/legend-right"
-@import "components/legend/legend-flip"
+@import "animations/legend/legend-down"
+@import "animations/legend/legend-up"
+@import "animations/legend/legend-left"
+@import "animations/legend/legend-right"
+@import "animations/legend/legend-flip"
 
 /***** Portrait ******/
-@import "components/portrait/portrait-before" 
-@import "components/portrait/portrait-blur" 
-@import "components/portrait/scale-before"
+@import "animations/portrait/portrait-before" 
+@import "animations/portrait/portrait-blur" 
+@import "animations/portrait/scale-before"
 
 /***** Infinites ******/
-@import "components/infinites/rotate-row"
+@import "animations/infinites/rotate-row"
+
+/********************* Components ***********************/
+.all-animation {
+	label {
+		display: block;
+	}
+	ul {
+		width: 100%;
+	}
+	ul,li {
+		list-style: none;
+	}
+	input[type="checkbox"],input[type="radio"] {
+		display: none;
+	}
+
+	@import "components/checkbox";
+	@import "components/tab-panel";
+	@import "components/menu-box";
+	@import "components/acordeon";
+} 
