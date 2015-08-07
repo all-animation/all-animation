@@ -1,7 +1,7 @@
 	&.check-in,&.box-check { 
 		label:after{
 			content:""; 
-			transform(rotateZ(-36deg) translateY(-10px) translateX(24px)); 
+			transformTest(rotateZ(-36deg) translateY(-10px) translateX(24px)); 
 			display: block;
 		}
 
@@ -13,7 +13,7 @@
 		}
 
 		label:before {
-			transform(rotateZ(38deg) translateY(-7px) translateX(11px))
+			transformTest(rotateZ(38deg) translateY(-7px) translateX(11px))
 		}
 		
 		input:checked ~ label:before,input:checked ~ label:after {
@@ -22,12 +22,12 @@
 
 		input:checked ~ label:before {
 			height: 100%;
-			transform(rotateZ(38deg) translateY(-17px) translateX(14px))
+			transformTest(rotateZ(38deg) translateY(-17px) translateX(14px))
 		}
 
 		input:checked ~ label:after {
 			height: 61%; 
-			transform(rotateZ(-36deg) translateY(-10px) translateX(21px))
+			transformTest(rotateZ(-36deg) translateY(-10px) translateX(21px))
 		}
 	}
 
@@ -38,11 +38,11 @@
 		}
 		
 		label:before {
-			transform(rotateZ(31deg) translateY(-3px) translateX(11px))
+			transformTest(rotateZ(31deg) translateY(-3px) translateX(11px))
 		}
 
 		label:after {
-			transform(rotateZ(-30deg) translateY(-7px) translateX(16px))
+			transformTest(rotateZ(-30deg) translateY(-7px) translateX(16px))
 		}
 	}
 	
@@ -120,10 +120,10 @@
 
 	&.puft-bottom {
 	 	label:before {
-	 		transform(translateY(28px))
+	 		transformTest(translateY(28px))
 	 	}
 		input:checked ~ label:before {
-			transform(translateY(0))
+			transformTest(translateY(0))
 		}
 	}
 	
@@ -134,13 +134,13 @@
 			height: 100%;
 		}
 		input:checked ~ label:before {
-			transform(translateX(0))
+			transformTest(translateX(0))
 		}
 	}
 
 	&.puft-right {
 		label:before {
-			transform(translateX(28px))
+			transformTest(translateX(28px))
 		}
 	}
 
@@ -182,17 +182,17 @@
 
 		input:checked ~ label:before {
 			box-shadow:inset 0 0 67px 4px color-on; 
-			transform(scale(1)); 
+			transformTest(scale(1)); 
 			transition(all ease-out 0.2s); 
 		}
 	}
 
 
 	&.puft-in label:before {
-		transform(scale(1.2));
+		transformTest(scale(1.2));
 	}
 	&.puft-out label:before {
-		transform(scale(0.2));
+		transformTest(scale(0.2));
 	}
 
 	&.triggerOnOf, &.trigger {
@@ -224,11 +224,11 @@
 			&:before {
 				width: 50px;
 			}
-		}
+		} 
 
 		input:checked ~ label {
 			&:after {
-				transform(translateX(32px));
+				transformTest(translateX(32px));
 			}
 			&:before {
 				background: color-on;
