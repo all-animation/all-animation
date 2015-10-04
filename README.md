@@ -9,10 +9,10 @@ move to the <a href="readme-portuguese.md">Portuguese language</a>
 <a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
 
 
-### Contribuidores:
+### Contributors:
 If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
 
-### Como Usar:
+### How to use:
 
 It's easy to use this css framework: D we will see step by step how to use it ...
 

@@ -5,7 +5,7 @@
   "main": "assets/css/all-animation.min.css",
   "dependencies": {
     "gulp": "3.8.11",
-    "gulp-notify": "2.2.0",
+    "gulp-notify": "^2.2.0",
     "gulp-stylus": "2.0.1"
   },
   "ignore": [

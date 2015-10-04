@@ -10,6 +10,9 @@ gulp.task('css', function() {
 		.pipe(notify('Stylus compilado e mimificado!'));
 });
 
-gulp.task('default', function() {
-	gulp.watch('./'+src+'/stylus/**/**/*.*', ['css']);
+// Settings tasks
+gulp.task('watch', function() {
+  gulp.watch('./'+src+'/stylus/**/**/*.*', ['css']);
 });
+
+gulp.task('default', ['css', 'watch']);
