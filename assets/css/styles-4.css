@@ -830,7 +830,7 @@ pre code {
 }
 
 .header.navbar-fixed-top {
-  z-index: 999999!important;
+  z-index: 999999;
 }
 
 #components * {
