@@ -10,7 +10,7 @@ move to the <a href="readme-portuguese.md">Portuguese language</a>
 
 
 ### Contributors:
-If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
+If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contribuidores.md</a> ;)
 
 ### How to use:
 
@@ -19,7 +19,7 @@ It's easy to use this css framework: D we will see step by step how to use it ..
 
 ### Step 1, include the necessary files in the head , so that the framework work correct:
 
-download the all animation: <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">click here</a>
+download the all animation: <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">click here</a>
 
 ```
 <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
@@ -124,6 +124,6 @@ We have several classes in place of the journal class, let's see which are:
 <br>
 <br>
 
-####Credits: 
+####Credits:
 
 <a href="http://clovisdasilvaneto.github.io" target="_blank">Clóvis Neto</a>

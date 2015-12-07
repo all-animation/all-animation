@@ -3,14 +3,13 @@ All Animation
 
 All Animation.css é um conjunto de animações, divertidas para deixar seu projeto mais sexy. São animações cross-browser que darão mas ênfase a suas páginas como controles deslizantes, efeitos 3D’s..
 
-Mudar indioma para <a href="readme-portuguese.md">Inglês</a>
+Mudar indioma para [Inglês](https://github.com/clovisdasilvaneto/all-animation/blob/master/README.md)</a>
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
 <a href="http://clovisdasilvaneto.github.io/all-animation/">Veja uma demo dos efeitos que este imenso framework pode fazer :D</a>
 
-
 ### Contribuidores:
-Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contribuidores.md">contribuidores.md</a> ;)
+Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contribuidores.md</a> ;)
 
 ### Como Usar:
 
@@ -19,7 +18,7 @@ Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https
 
 ### Passo 1, inclua os arquivos necessários no head, para que o framework funcione corretamente:
 
-baixe o all animation, <a href="http://clovisdasilvaneto.github.io/all-animation/css/all-animation.css" target="_blank">clicando aqui</a>
+baixe o all animation, <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">clicando aqui</a>
 
 ```
 <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
