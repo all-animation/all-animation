@@ -9,7 +9,7 @@ Mudar indioma para [Inglês](https://github.com/clovisdasilvaneto/all-animation/
 <a href="http://clovisdasilvaneto.github.io/all-animation/">Veja uma demo dos efeitos que este imenso framework pode fazer :D</a>
 
 ### Contribuidores:
-Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contribuidores.md</a> ;)
+Caso você queira contribuir com o nosso projeto, leia o arquivo: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contributing.md</a> ;)
 
 ### Como Usar:
 
