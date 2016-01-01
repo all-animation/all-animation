@@ -4,7 +4,7 @@
   "description": "The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / Stylus",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "3.8.11",
+    "gulp": "3.9.0",
     "gulp-concat": "2.5.2",
     "gulp-minify-css": "0.5.1",
     "gulp-notify": "2.2.0",
