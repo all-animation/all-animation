@@ -1,6 +1,6 @@
 {
   "name": "all-animation",
-  "version": "1.1.0",
+  "version": "2.1.2",
   "description": "The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / Stylus",
   "main": "gulpfile.js",
   "dependencies": {
