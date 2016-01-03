@@ -10,7 +10,7 @@ move to the <a href="readme-portuguese.md">Portuguese language</a>
 
 
 ### Contributors:
-If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contribuidores.md</a> ;)
+If you want to contribute to our project, read the file: <a href="https://github.com/clovisdasilvaneto/all-animation/blob/master/contributing.md">contributing.md</a> ;)
 
 ### How to use:
 
