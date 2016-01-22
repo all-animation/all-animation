@@ -1,9 +1,10 @@
 All Animation
 =============
 
-All animation.css is a set of fun animations to make your project sexier. They are cross-browser animations but that will emphasize your pages as sliders , 3D effects 's .
+All animation.css is a set of fun animations to make your project sexier.
+They are cross-browser animations that will emphasize your pages with sliders, 3D effects, etc.
 
-move to the <a href="readme-portuguese.md">Portuguese language</a>
+See the <a href="readme-portuguese.md">Portuguese language</a>.
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
 <a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
@@ -14,12 +15,11 @@ If you want to contribute to our project, read the file: <a href="https://github
 
 ### How to use:
 
-It's easy to use this css framework: D we will see step by step how to use it ...
+It's easy to use, let's see step by step:
 
+### Step 1, include the necessary files in the head so the framework works correctly:
 
-### Step 1, include the necessary files in the head , so that the framework work correct:
-
-download the all animation: <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">click here</a>
+Download the All Animation: <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">click here</a>
 
 ```
 <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
@@ -27,7 +27,7 @@ download the all animation: <a href="https://github.com/clovisdasilvaneto/all-an
 
 ```
 
-### Step 2, html:
+### Step 2, HTML:
 
 ```
 <div id="animation"></div>
@@ -36,19 +36,19 @@ download the all animation: <a href="https://github.com/clovisdasilvaneto/all-an
 
 ```
 
-### Step 3, Jquery:
+### Step 3, jQuery:
 
 ```js
-$(".anny-class").click(function(){
+$(".any-class").click(function(){
  $("#animation").addClass("journal");
 });
 ```
 
 ### Optional
 
-If you want to add the effect at some specified time , it is to place a timer ;)
+If you want to add the effect at some specified time, just place a timer:
 
-ex, placing an animation in a particular element , after 2 seconds:
+Example, triggering an animation in a particular element after 2 seconds:
 
 ```js
 setTimeout(function(){
@@ -58,15 +58,14 @@ setTimeout(function(){
 
 ### Caution:
 
-If you want to add some animation on an element that has suffered another animation of this framework , or want to restart the animation , you have to remove the last animation and submit your. Ex:
+If you want to add some animation on an element that has had another animation, or you want to restart the animation previously triggered, you have to remove the last animation and trigger the new one. Example:
 
 
 ```js
  $("#animation").removeClass("journal").addClass("four-rock");
 ```
 
-
-We have several classes in place of the journal class, let's see which are:
+We have several classes for animations:
 
 ### Especiais:
 
@@ -124,6 +123,6 @@ We have several classes in place of the journal class, let's see which are:
 <br>
 <br>
 
-####Credits:
+#### Credits:
 
 <a href="http://clovisdasilvaneto.github.io" target="_blank">Clóvis Neto</a>
