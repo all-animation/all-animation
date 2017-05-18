@@ -21,19 +21,18 @@ It's easy to use, let's see step by step:
 
 Download the All Animation: <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">click here</a>
 
-or
+and
+```
+<link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
+<script type="text/javascript" src="yourpath/jquery.js"></script>
+
+```
 
 ```
 npm install all-animation
 
 ```
 
-
-```
-<link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
-<script type="text/javascript" src="yourpath/jquery.js"></script>
-
-```
 
 ### Step 2, HTML:
 
