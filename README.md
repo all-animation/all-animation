@@ -27,7 +27,7 @@ and
 <script type="text/javascript" src="yourpath/jquery.js"></script>
 
 ```
-
+or run
 ```
 npm install all-animation
 
