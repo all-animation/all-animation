@@ -4,7 +4,7 @@ All Animation
 All animation.css is a set of fun animations to make your project sexier.
 They are cross-browser animations that will emphasize your pages with sliders, 3D effects, etc.
 
-See the <a href="readme-portuguese.md">Portuguese language</a>.
+See the <a href="https://github.com/all-animation/all-animation/blob/master/readme-portuguese.md">Portuguese language</a>.
 
 ##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
 <a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
@@ -21,11 +21,18 @@ It's easy to use, let's see step by step:
 
 Download the All Animation: <a href="https://github.com/clovisdasilvaneto/all-animation/archive/v2.1.2.zip" target="_blank">click here</a>
 
+and
 ```
 <link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
 <script type="text/javascript" src="yourpath/jquery.js"></script>
 
 ```
+or run
+```
+npm install all-animation
+
+```
+
 
 ### Step 2, HTML:
 
