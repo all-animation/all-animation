@@ -1,7 +1,7 @@
 All Animation
 =============
 
-All Animation.css é um conjunto de animações, divertidas para deixar seu projeto mais sexy. São animações cross-browser que darão mas ênfase a suas páginas como controles deslizantes, efeitos 3D’s..
+All Animation.css é um conjunto de animações, divertidas para deixar seu projeto mais sexy. São animações cross-browser que darão mais ênfase a suas páginas como controles deslizantes, efeitos 3D’s..
 
 Mudar indioma para [Inglês](https://github.com/clovisdasilvaneto/all-animation/blob/master/README.md)</a>
 
@@ -43,7 +43,7 @@ $(".anny-class").click(function(){
 });
 ```
 
-Caso queira adicionar o efeito em algum determinado tempo, é colocar um temporizador ;)
+Caso queira adicionar o efeito em algum determinado tempo, basta colocar um temporizador ;)
 
 ex, colocando uma animação em um determinado elemento, depois de 2 segundos:
 
@@ -55,7 +55,7 @@ setTimeout(function(){
 
 ### Atenção:
 
-Caso você queira adicionar alguma animação em um elemento que já sofreu uma outra animação deste framework, ou queira reiniciar a animação, você terá que remover a ultima animação e inserir a sua, ex:
+Caso você queira adicionar alguma animação em um elemento que já sofreu uma outra animação deste framework ou queira reiniciar a animação, você terá que remover a última animação e inserir a sua, ex:
 
 
 ```js
