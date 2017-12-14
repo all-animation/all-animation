@@ -72,7 +72,9 @@ If you want to add some animation on an element that has had another animation, 
  $("#animation").removeClass("journal").addClass("four-rock");
 ```
 
-We have several classes for animations:
+We have several classes for animations, you can se our completed documentation in this link: [http://all-animation.github.io](http://all-animation.github.io)
+
+Some class of animations bellow:
 
 ### Especiais:
 
