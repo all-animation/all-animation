@@ -1,0 +1,77 @@
+.jump-bounce {
+	stateInitial(1,visible);
+	setAnimation(jumpBounce 1 1.5s ease-out);
+} 
+
+/* JUMP BOUNCE */
+@-webkit-keyframes jumpBounce {
+	10% {
+		-webkit-transform:translateY(-100px);
+	}
+	20%,35%,50% {
+		-webkit-transform:translateY(0px);
+	}
+	25% {
+		-webkit-transform:translateY(-40px);
+	}
+	40% {
+		-webkit-transform:translateY(-10px);
+	}
+}
+@-moz-keyframes jumpBounce {
+	10% {
+		-moz-transform:translateY(-100px);
+	}
+	20%,35%,50% {
+		-moz-transform:translateY(0px);
+	}
+	25% {
+		-moz-transform:translateY(-40px);
+	}
+	40% {
+		-moz-transform:translateY(-10px);
+	}
+}
+@-o-keyframes jumpBounce {
+	10% {
+		-ms-transform:translateY(-100px);
+	}
+	20%,35%,50% {
+		-ms-transform:translateY(0px);
+	}
+	25% {
+		-ms-transform:translateY(-40px);
+	}
+	40% {
+		-ms-transform:translateY(-10px);
+	}
+}
+@-o-keyframes jumpBounce {
+	10% {
+		-o-transform:translateY(-100px);
+	}
+	20%,35%,50% {
+		-o-transform:translateY(0px);
+	}
+	25% {
+		-o-transform:translateY(-40px);
+	}
+	40% {
+		-o-transform:translateY(-10px);
+	}
+}
+
+@keyframes jumpBounce {
+	10% {
+		transform:translateY(-100px);
+	}
+	20%,35%,50% {
+		transform:translateY(0px);
+	}
+	25% {
+		transform:translateY(-40px);
+	}
+	40% {
+		transform:translateY(-10px);
+	}
+}
