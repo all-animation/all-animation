@@ -1,0 +1,80 @@
+.scale-bounce {
+	setAnimation(scaleBounce .6s ease-in-out forwards);
+}
+
+/* SCALE BOUNCE */
+@-webkit-keyframes scaleBounce {
+	0% {
+		-webkit-transform:scale(1.5);
+		opacity: 0;
+		visibility: hidden;
+	}50%{
+		-webkit-transform:scale(1); 
+	}70%{
+		-webkit-transform:scale(1.1); 
+	}100%{
+		-webkit-transform:scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@-moz-keyframes scaleBounce {
+	0% {
+		-moz-transform:scale(1.5);
+		opacity: 0;
+		visibility: hidden;
+	}50%{
+		-moz-transform:scale(1); 
+	}70%{
+		-moz-transform:scale(1.1); 
+	}100%{
+		-moz-transform:scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@-o-keyframes scaleBounce {
+	0% {
+		-o-transform:scale(1.5);
+		opacity: 0;
+		visibility: hidden;
+	}50%{
+		-o-transform:scale(1);
+	}70%{
+		-o-transform:scale(1.1);
+	}100%{
+		-o-transform:scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@-ms-keyframes scaleBounce {
+	0% {
+		-ms-transform:scale(1.5);
+		opacity: 0;
+		visibility: hidden;
+	}50%{
+		-ms-transform:scale(1);
+	}70%{
+		-ms-transform:scale(1.1);
+	}100%{
+		-ms-transform:scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@keyframes scaleBounce {
+	0% {
+		transform:scale(1.5);
+		opacity: 0;
+		visibility: hidden;
+	}50%{
+		transform:scale(1);
+	}70%{
+		transform:scale(1.1);
+	}100%{
+		transform:scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
