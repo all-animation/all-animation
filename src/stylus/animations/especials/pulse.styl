@@ -1,9 +1,6 @@
 .pulse {
-	setAnimation(pulse infinite alternate linear 0.5s);
-	stateInitial(1,visible);
+	setAnimation(pulse infinite alternate linear 0.5s forwards);
 }
-
-
 
 @-webkit-keyframes pulse {
   0% {
@@ -12,6 +9,8 @@
 
   100% {
     -webkit-transform: scale(1.05);
+    opacity: 1;
+    visibility visible;
   }
 }
 
@@ -22,6 +21,8 @@
 
   100% {
     -moz-transform: scale(1.05);
+    opacity: 1;
+    visibility visible;
   }
 }
 
@@ -32,6 +33,8 @@
 
   100% {
     -ms-transform: scale(1.05);
+    opacity: 1;
+    visibility visible;
   }
 }
 
@@ -42,6 +45,8 @@
 
   100% {
     -o-transform: scale(1.05);
+    opacity: 1;
+    visibility visible;
   }
 }
 
@@ -52,6 +57,8 @@
 
   100% {
     transform: scale(1.05);
+    opacity: 1;
+    visibility visible;
   }
 }
 
