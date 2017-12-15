@@ -1,6 +1,5 @@
 .four-rock {
-	stateInitial(1,visible);
-	setAnimation(fourRock 1 2s ease-out);
+	setAnimation(fourRock 1 2s ease-out forwards);
 }
 
 /* FOUR ROCK */
@@ -14,7 +13,11 @@
 	30% {-webkit-transform: scale(0.5) translate(0px,130px);}
 	35% {-webkit-transform: scale(0.5) translate(0px,0px);}
 	40% {-webkit-transform: scale(1);}
-	100%{-webkit-transform: scale(1);-webkit-transform-origin: 0 0;}
+	100%{
+		-webkit-transform: scale(1);-webkit-transform-origin: 0 0;
+		opacity: 1;
+		visibility: visible;
+	}
 	
 }
 @-moz-keyframes fourRock {
@@ -27,7 +30,11 @@
 	30% {-moz-transform: scale(0.5) translate(0px,130px);}
 	35% {-moz-transform: scale(0.5) translate(0px,0px);}
 	40% {-moz-transform: scale(1);}
-	100%{-moz-transform: scale(1);-webkit-transform-origin: 0 0;}
+	100%{
+		-moz-transform: scale(1);-webkit-transform-origin: 0 0;
+		opacity: 1;
+		visibility: visible;
+	}
 	
 }
 @-ms-keyframes fourRock {
@@ -40,7 +47,11 @@
 	30% {-ms-transform: scale(0.5) translate(0px,130px);}
 	35% {-ms-transform: scale(0.5) translate(0px,0px);}
 	40% {-ms-transform: scale(1);}
-	100%{-ms-transform: scale(1);-webkit-transform-origin: 0 0;}
+	100%{
+		-ms-transform: scale(1);-webkit-transform-origin: 0 0;
+		opacity: 1;
+		visibility: visible;
+	}
 	
 }
 @-o-keyframes fourRock {
@@ -53,7 +64,11 @@
 	30% {-o-transform: scale(0.5) translate(0px,130px);}
 	35% {-o-transform: scale(0.5) translate(0px,0px);}
 	40% {-o-transform: scale(1);}
-	100%{-o-transform: scale(1);-webkit-transform-origin: 0 0;}
+	100%{
+		-o-transform: scale(1);-webkit-transform-origin: 0 0;
+		opacity: 1;
+		visibility: visible;
+	}
 	
 }
 @keyframes fourRock {
@@ -66,6 +81,10 @@
 	30% {transform: scale(0.5) translate(0px,130px);}
 	35% {transform: scale(0.5) translate(0px,0px);}
 	40% {transform: scale(1);}
-	100%{transform: scale(1);-webkit-transform-origin: 0 0;}
+	100%{
+		transform: scale(1);-webkit-transform-origin: 0 0;
+		opacity: 1;
+		visibility: visible;
+	}
 	
 }
