@@ -1,6 +1,7 @@
 .a-perspective {
-    /* autoprefixer: off */
-    -webkit-perspective: $perspective;
-    /* autoprefixer: on */
-    perspective: $perspective;
+  /* autoprefixer: off */
+  -webkit-perspective: $perspective;
+
+  /* autoprefixer: on */
+  perspective: $perspective;
 }

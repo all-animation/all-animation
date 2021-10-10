@@ -1,0 +1,25 @@
+.a-rotate-flip {
+  @include keyframes(rotateFlip) {
+    0% {
+      transform-origin: 50%;
+    }
+
+    40% {
+      transform: rotateY(70deg);
+      opacity: 0;
+    }
+
+    60% {
+      transform: rotateY(70deg);
+      opacity: 0;
+    }
+
+    100% {
+      transform: rotateY(0deg);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(rotateFlip $perspective-bounce-timing linear 1);
+}

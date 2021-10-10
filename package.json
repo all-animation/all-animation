@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build": "rimraf css && yarn build-sass && yarn build-autoprefix && yarn build-cleancss",
     "build-sass": "node-sass --output-style expanded scss/main.scss ./dist/all-animation.css",
     "build-autoprefix": "postcss --use autoprefixer --map --output ./dist/all-animation.css ./dist/all-animation.css",
-    "build-cleancss": "cleancss -o ./dist/all-animation.min.css ./dist/all-animation.css"
+    "build-cleancss": "cleancss -o ./dist/all-animation.min.css ./dist/all-animation.css",
+    "lint": "stylelint '**/*.scss'",
+    "lint:fix": "yarn lint --fix"
   },
   "files": [
     "scss"
@@ -21,5 +23,15 @@
     "postcss": "^8.3.9",
     "postcss-cli": "^9.0.1",
     "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "eslint": "^6.7.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1"
   }
 }
