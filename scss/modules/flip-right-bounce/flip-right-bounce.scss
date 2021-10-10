@@ -1,21 +1,24 @@
 .a-flip-right-bounce {
-    @include keyframes(flipRightBounce) {
-        0% {
-            opacity: 0;
-            transform: rotateY(-70deg);
-        }
-        50% {
-            opacity: 1;
-            transform: rotateY(5deg);
-        }
-        80% {
-            transform: rotateY(-20deg);
-        }
-        100% {
-            transform: rotateY(0deg);
-        }
+  @include keyframes(flipRightBounce) {
+    0% {
+      opacity: 0;
+      transform: rotateY(-70deg);
     }
 
-    @include show();
-    @include animate(flipRightBounce $perspective-bounce-timing linear 1);
+    50% {
+      opacity: 1;
+      transform: rotateY(5deg);
+    }
+
+    80% {
+      transform: rotateY(-20deg);
+    }
+
+    100% {
+      transform: rotateY(0deg);
+    }
+  }
+
+  @include show();
+  @include animate(flipRightBounce $perspective-bounce-timing linear 1);
 }
