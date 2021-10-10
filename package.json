@@ -1,19 +1,25 @@
 {
-  "name": "all-animation",
-  "version": "2.1.2",
-  "description": "The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / Stylus",
-  "main": "assets/css/all-animation.min.css",
-  "dependencies": {
-    "gulp": "3.8.11",
-    "gulp-notify": "^2.2.0",
-    "gulp-stylus": "2.0.1"
+  "name": "all-animation-css",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-sass": "node-sass --output-style expanded scss/main.scss ./dist/all-animation.css",
+    "build-autoprefix": "postcss --use autoprefixer --map --output ./dist/all-animation.css ./dist/all-animation.css",
+    "build-cleancss": "cleancss -o ./dist/all-animation.min.css ./dist/all-animation.css"
   },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "components"
+  "files": [
+    "scss"
   ],
-  "author": "Clóvis Neto",
-  "github": "https://github.com/all-animation/all-animation",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "clean-css-cli": "^5.4.1",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "rimraf": "^3.0.2"
+  }
 }
