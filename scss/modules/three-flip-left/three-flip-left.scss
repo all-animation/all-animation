@@ -1,0 +1,17 @@
+.a-three-flip-up {
+  @include keyframes(threeFlipUp) {
+    0% {
+      transform: rotateX(0);
+    }
+
+    100% {
+      transform: rotateX(90deg);
+    }
+  }
+
+  transform: rotateX(90deg);
+  transform-origin: 100% 0;
+
+  @include show();
+  @include animate(threeFlipUp $perspective-bounce-timing ease-in-out 1);
+}
