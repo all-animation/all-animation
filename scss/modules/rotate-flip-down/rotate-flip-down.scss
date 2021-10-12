@@ -1,0 +1,25 @@
+.a-rotate-flip-down {
+  @include keyframes(rotateFlipDown) {
+    0% {
+      transform-origin: 50%;
+    }
+
+    40% {
+      transform: rotateX(70deg);
+      opacity: 0;
+    }
+
+    60% {
+      transform: rotateX(70deg);
+      opacity: 0;
+    }
+
+    100% {
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(rotateFlipDown $rotate-timing linear 1);
+}
