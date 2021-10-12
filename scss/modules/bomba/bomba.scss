@@ -1,0 +1,25 @@
+.a-bomba {
+  @include keyframes(bomba) {
+    0% {
+      transform-origin: -50% 0%;
+      transform: rotateZ(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    50%,
+    100% {
+      transform: rotateZ(-210deg);
+      transform-origin: -20% 0%;
+    }
+
+    47%,
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  @include hide();
+  @include animate(bomba $bomba-timing ease-out 1);
+}

@@ -1,0 +1,17 @@
+.a-flash-bang {
+  @include keyframes(flashBang) {
+    0%,
+    20% {
+      opacity: 0;
+    }
+
+    10%,
+    30%,
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(flashBang $flash-bang-timing linear 1);
+}

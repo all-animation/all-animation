@@ -1,0 +1,27 @@
+.a-legend-left {
+  &::before {
+    @include keyframes(legendLeft) {
+      0% {
+        transform: translateY(9px) translateX(0);
+        width: 0;
+      }
+
+      100% {
+        width: 90%;
+        transform: translateY(9px) translateX(9px);
+      }
+    }
+
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 64%;
+    z-index: 1000;
+    transform: translateY(9px) translateX(9px);
+    background: rgba(0, 0, 0, 0.5);
+
+    @include show();
+    @include animate(legendLeft $legend-timing ease-out 1);
+  }
+}

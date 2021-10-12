@@ -12,5 +12,5 @@
   }
 
   @include hide();
-  @include animate(rotateOut $rotate-out ease-in 1);
+  @include animate(rotateOut $rotate-out-timing ease-in 1);
 }
