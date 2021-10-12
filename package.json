@@ -25,6 +25,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "ansi-regex": "^6.0.1",
     "autoprefixer": "^10.3.7",
     "clean-css-cli": "^5.4.1",
     "eslint": "^6.7.0",
@@ -35,11 +36,11 @@
     "postcss": "^8.3.9",
     "postcss-cli": "^9.0.1",
     "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
-    "stylelint-prettier": "^1.2.0",
-    "pre-push": "^0.1.1"
+    "stylelint-prettier": "^1.2.0"
   }
 }
