@@ -14,8 +14,10 @@
     "lint:fix": "yarn lint --fix"
   },
   "pre-commit": [
-    "build",
     "lint"
+  ],
+  "pre-push": [
+    "build"
   ],
   "files": [
     "scss",
