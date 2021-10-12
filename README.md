@@ -38,7 +38,7 @@ In your main `scss` file of your project, just include the all-animation module,
 
 ```scss
 // main.scss
-@include "../node_modules/all-animation/scss/main"
+@import "../node_modules/all-animation/scss/main"
 ```
 After that you should be ready to use our library.
 
@@ -48,11 +48,11 @@ In case you don't want to have the whole all-animations on your final bundle, yo
 
 ```scss
 // Core all-animation dependencies, like variables and mixins
-@include "../node_modules/all-animation/scss/config/_config";
+@import "../node_modules/all-animation/scss/config/_config";
 
 // The specific animation which you want to use
 // in this case "a-bomb"
-@include "../node_modules/all-animation/scss/modules/bomb/bomb"
+@import "../node_modules/all-animation/scss/modules/bomb/bomb"
 ```
 
 
