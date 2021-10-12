@@ -3,8 +3,7 @@ All Animation
 
 All Animation.css is a set of nice and crazy css animations made with the purpose to bring life and interactions to your project. They are cross-browser animations which will give more emphases on your pages likes sliding controls and 3D efects...
 
-##[Try the demo](http://clovisdasilvaneto.github.io/all-animation/)
-<a href="http://clovisdasilvaneto.github.io/all-animation/">View demo</a>
+[You can view the website here -- We are going to change our layout soon](http://clovisdasilvaneto.github.io/all-animation/)
 
 ## V3 is now ready to be used!
 It's already on npm, but we're still improving our documentation and api.
