@@ -14,6 +14,7 @@
     "lint:fix": "yarn lint --fix"
   },
   "pre-commit": [
+    "build",
     "lint"
   ],
   "files": [
