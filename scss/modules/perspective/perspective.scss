@@ -1,7 +1,7 @@
 .a-perspective {
   /* autoprefixer: off */
   -webkit-perspective: $perspective;
-
-  /* autoprefixer: on */
+  -o-perspective: $perspective;
+  -moz-perspective: $perspective;
   perspective: $perspective;
 }
