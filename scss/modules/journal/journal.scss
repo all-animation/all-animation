@@ -1,0 +1,18 @@
+.a-journal {
+  @include keyframes(journal) {
+    0% {
+      transform: scale(0) rotate(-360deg);
+    }
+
+    80% {
+      transform: scale(0.5) rotate(-180deg);
+    }
+
+    100% {
+      transform: scale(1) rotate(0);
+    }
+  }
+
+  @include show();
+  @include animate(journal $journal-timing ease-in 1);
+}

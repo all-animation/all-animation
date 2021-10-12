@@ -1,0 +1,14 @@
+.a-pulse {
+  @include keyframes(pulse) {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.05);
+    }
+  }
+
+  @include show();
+  @include animate(pulse infinite linear $pulse-timing alternate);
+}

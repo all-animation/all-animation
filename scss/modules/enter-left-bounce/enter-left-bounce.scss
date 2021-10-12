@@ -1,0 +1,24 @@
+.a-enter-left-bounce {
+  @include keyframes(enterLeftBounce) {
+    0% {
+      transform: translateX(-120px);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translateX(0);
+    }
+
+    70% {
+      transform: translateX(-8px);
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(enterLeftBounce 1 linear $bounce-timing);
+}

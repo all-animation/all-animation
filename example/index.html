@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../dist/all-animation.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a-perspective" style="margin: 10rem; width: 213px">
+      <!-- For 3d we need a div on top of the target element -->
+      <!-- please remember to document that -->
+      <div style="width: 213px" class="a-scale-before">
+        <img src="./all-animation.png" id="element" />
+      </div>
+    </div>
+  </body>
+</html>

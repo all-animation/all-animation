@@ -1,0 +1,26 @@
+.a-legend-right {
+  &::before {
+    @include keyframes(legendRight) {
+      0% {
+        left: 100%;
+        width: 0;
+      }
+
+      100% {
+        width: 90%;
+      }
+    }
+
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 64%;
+    z-index: 1000;
+    transform: translateY(9px) translateX(9px);
+    background: rgba(0, 0, 0, 0.5);
+
+    @include show();
+    @include animate(legendRight $legend-timing ease-out 1);
+  }
+}

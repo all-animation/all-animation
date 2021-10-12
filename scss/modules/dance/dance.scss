@@ -1,0 +1,31 @@
+.a-dance {
+  @include keyframes(dance) {
+    0%,
+    10%,
+    20% {
+      transform: rotateZ(10deg);
+    }
+
+    5%,
+    15%,
+    25% {
+      transform: rotateZ(-10deg);
+    }
+
+    35%,
+    60%,
+    100% {
+      transform: scale(1) rotateZ(0deg);
+      box-shadow: inset 0 0 0 0 transparent;
+    }
+
+    40% {
+      transform: scale(1.3);
+      box-shadow: inset 0 0 0 0;
+      box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  @include show();
+  @include animate(dance $dance-timing linear 1);
+}

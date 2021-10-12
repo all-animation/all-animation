@@ -1,0 +1,6 @@
+@import './animation.scss';
+
+.a-jamp {
+  @include show();
+  @include animate(jamp 1 linear $jamp-timing);
+}

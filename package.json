@@ -1,19 +1,41 @@
 {
   "name": "all-animation",
-  "version": "2.1.2",
-  "description": "The all animation is a framework css3 created focusing on 3D 's animations and cross browsers. Recently released an update of all animation , which were inserted several animated components made in small lines of CSS3 / Stylus",
-  "main": "assets/css/all-animation.min.css",
-  "dependencies": {
-    "gulp": "3.8.11",
-    "gulp-notify": "^2.2.0",
-    "gulp-stylus": "2.0.1"
-  },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "components"
-  ],
+  "version": "3.0.0",
   "author": "Clóvis Neto",
   "github": "https://github.com/all-animation/all-animation",
-  "license": "MIT"
+  "description": "All Animation.css is a set of nice and crazy css animations made with the purpose to bring life and interactions to your project. They are cross-browser animations which will give more emphases on your pages likes sliding controls and 3D efects...",
+  "main": "scss/main.scss",
+  "scripts": {
+    "build": "rimraf css && yarn build-sass && yarn build-autoprefix && yarn build-cleancss",
+    "build-sass": "node-sass --output-style expanded scss/main.scss ./dist/all-animation.css",
+    "build-autoprefix": "postcss --use autoprefixer --map --output ./dist/all-animation.css ./dist/all-animation.css",
+    "build-cleancss": "cleancss -o ./dist/all-animation.min.css ./dist/all-animation.css",
+    "lint": "stylelint '**/*.scss'",
+    "lint:fix": "yarn lint --fix"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "files": [
+    "scss",
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "autoprefixer": "^10.3.7",
+    "clean-css-cli": "^5.4.1",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "rimraf": "^3.0.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.2.0"
+  }
 }

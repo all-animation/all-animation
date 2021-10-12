@@ -1,0 +1,16 @@
+.a-pulse-slow {
+  @include keyframes(pulseSlow) {
+    0% {
+      -webkit-transform: scale(1);
+      opacity: 1;
+    }
+
+    100% {
+      -webkit-transform: scale(0.85);
+      opacity: 0.5;
+    }
+  }
+
+  @include show();
+  @include animate(pulseSlow alternate infinite ease-in-out $pulse-slow-timing);
+}

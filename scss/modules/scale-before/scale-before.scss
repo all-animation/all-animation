@@ -1,0 +1,25 @@
+.a-scale-before {
+  &::before {
+    @include keyframes(scaleBefore) {
+      0% {
+        transform: translateY(9px) translateX(9px) scale(1.5);
+      }
+
+      100% {
+        transform: translateY(9px) translateX(9px) scale(1);
+      }
+    }
+
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 64%;
+    z-index: 1000;
+    transform: translateY(9px) translateX(9px);
+    background: rgba(0, 0, 0, 0.5);
+
+    @include show();
+    @include animate(scaleBefore $legend-timing ease-out 1);
+  }
+}

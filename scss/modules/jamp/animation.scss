@@ -1,0 +1,41 @@
+@include keyframes(jamp) {
+  0% {
+    transform: translateY(0);
+  }
+
+  10% {
+    transform: translateY(-50px);
+  }
+
+  25% {
+    transform: translateY(-50px) scale(1.1);
+  }
+
+  35% {
+    transform: translateY(-50px) scale(1);
+  }
+
+  45% {
+    transform: translateY(-50px) scale(1.2);
+  }
+
+  55% {
+    transform: translateY(-50px) scale(1);
+  }
+
+  65% {
+    transform: translate(150px, -50px) scale(0.8);
+  }
+
+  85% {
+    transform: translate(150px, -50px) scale(1.2);
+  }
+
+  95% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

@@ -1,0 +1,24 @@
+.a-enter-up-bounce {
+  @include keyframes(enterUpBounce) {
+    0% {
+      transform: translateY(120px);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+
+    70% {
+      transform: translateY(20px);
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(enterUpBounce 1 linear $bounce-timing);
+}

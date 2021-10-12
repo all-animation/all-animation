@@ -1,0 +1,6 @@
+@import './animation.scss';
+
+.a-four-rock {
+  @include show();
+  @include animate(fourRock 1 ease-out $four-rock-timing);
+}

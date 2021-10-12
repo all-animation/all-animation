@@ -1,0 +1,27 @@
+.a-legend-up {
+  &::before {
+    @include keyframes(legendUp) {
+      0% {
+        top: 70%;
+        height: 0;
+      }
+
+      100% {
+        height: 64%;
+        top: 0;
+      }
+    }
+
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 64%;
+    z-index: 1000;
+    transform: translateY(9px) translateX(9px);
+    background: rgba(0, 0, 0, 0.5);
+
+    @include show();
+    @include animate(legendUp $legend-timing ease-out 1);
+  }
+}
