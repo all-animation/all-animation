@@ -20,5 +20,5 @@
   }
 
   @include show();
-  @include animate(flipRightBounce $perspective-bounce-timing linear 1);
+  @include animate(flipRightBounce $perspective-bounce-timing ease-in-out 1);
 }

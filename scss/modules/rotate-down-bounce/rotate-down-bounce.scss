@@ -31,7 +31,7 @@
   }
 
   @include hide();
-  @include animate(rotateDowBounce $rotate-down-bounce-timing ease-in 1);
+  @include animate(rotateDowBounce $rotate-down-bounce-timing ease-in-out 1);
 
   transform-origin: 0 0;
 }

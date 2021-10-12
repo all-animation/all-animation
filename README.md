@@ -126,11 +126,20 @@ We have several classes for animations:
 </ul>
 
 ### Perspective:
+For using the perspective animations, please add a parent container with a class `a-perspective`, like: 
+
+```html
+<div class="a-perspective">
+    <!-- Your animated code here, like: -->
+    <div class="a-three-flip-up">...</div>
+</div>
+```
+
+Some classes for 
 <ul>
- <li>a-tree-flip-right</li>
- <li>a-tree-flip</li>
- <li>a-tree-flip-up</li>
- <li>a-tree-flip-down</li>
+ <li>a-three-flip-right</li>
+ <li>a-three-flip-up</li>
+ <li>a-three-flip-down</li>
  <li>a-flip-left-bounce</li>
  <li>a-rotate-flip</li>
  <li>a-flip-right-bounce</li>

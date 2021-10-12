@@ -1,0 +1,16 @@
+.a-flip-top {
+  @include keyframes(flipTop) {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    70% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(flipTop $flip-timing ease-out 1);
+}

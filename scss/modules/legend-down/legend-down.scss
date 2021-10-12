@@ -21,7 +21,8 @@
     transform: translateY(9px) translateX(9px);
     background: rgba(0, 0, 0, 0.5);
 
-    @include show();
     @include animate(legendDown $legend-timing ease-out 1);
   }
+
+  @include show();
 }

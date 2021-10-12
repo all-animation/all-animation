@@ -1,0 +1,20 @@
+.a-flip-bottom {
+  @include keyframes(flipBottom) {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+
+    70% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @include show();
+  @include animate(flipBottom $flip-timing ease-out 1);
+}

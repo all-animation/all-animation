@@ -18,10 +18,13 @@
     width: 90%;
     height: 64%;
     z-index: 1000;
+    left: 0;
+    top: 0;
     transform: translateY(9px) translateX(9px);
     background: rgba(0, 0, 0, 0.5);
 
-    @include show();
     @include animate(legendLeft $legend-timing ease-out 1);
   }
+
+  @include show();
 }

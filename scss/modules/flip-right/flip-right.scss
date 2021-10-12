@@ -1,0 +1,16 @@
+.a-flip-right {
+  @include keyframes(flipRight) {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+
+    70% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @include show();
+  @include animate(flipRight $flip-timing ease-out 1);
+}
