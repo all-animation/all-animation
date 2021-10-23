@@ -1,0 +1,24 @@
+.a-jump-bounce {
+  @include keyframes(jumpBounce) {
+    10% {
+      transform: translateY(-100px);
+    }
+
+    20%,
+    35%,
+    50% {
+      transform: translateY(0);
+    }
+
+    25% {
+      transform: translateY(-40px);
+    }
+
+    40% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @include show();
+  @include animate(jumpBounce 1 $jump-bounce-timing ease-out);
+}
