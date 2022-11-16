@@ -5,6 +5,9 @@ All Animation.css is a set of nice and crazy css animations made with the purpos
 
 [You can view the website here -- We are going to change our layout soon](http://clovisdasilvaneto.github.io/all-animation/)
 
+## Translations
+- [Portuguese](README.br.md)
+
 ## V3 is now ready to be used!
 It's already on npm, but we're still improving our documentation and api.
 
