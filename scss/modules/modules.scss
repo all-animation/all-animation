@@ -13,6 +13,10 @@
 @import './enter-right-bounce/enter-right-bounce.scss';
 @import './jump-bounce/jump-bounce.scss';
 @import './scale-bounce/scale-bounce.scss';
+@import './jelly-bounce-bottom/jelly-bounce-bottom.scss';
+@import './jelly-bounce-left/jelly-bounce-left.scss';
+@import './jelly-bounce-right/jelly-bounce-right.scss';
+@import './jelly-bounce-top/jelly-bounce-top.scss';
 
 // Perspective
 @import './perspective/perspective.scss';
@@ -29,6 +33,7 @@
 @import './flip-bottom/flip-bottom.scss';
 @import './flip-left/flip-left.scss';
 @import './flip-right/flip-right.scss';
+@import './flip-scale/flip-scale.scss';
 
 // Rotate
 @import './rotate-out/rotate-out.scss';
@@ -49,3 +54,20 @@
 @import './portrait-before/portrait-before.scss';
 @import './portrait-blur/portrait-blur.scss';
 @import './scale-before/scale-before.scss';
+
+// Jello 
+
+@import './jello-horizontal/jello-horizontal.scss';
+@import './jello-vertical/jello-vertical.scss';
+
+//Vibrate 
+@import './vibrate-low/vibrate-low.scss';
+@import './vibrate-medium/vibrate-medium.scss';
+@import './vibrate-high/vibrate-high.scss';
+
+//Wobble
+
+@import './wobble-bottom/wobble-bottom.scss';
+@import './wobble-left/wobble-left.scss';
+@import './wobble-right/wobble-right.scss';
+@import './wobble-top/wobble-top.scss';
