@@ -169,6 +169,27 @@ Algumas aulas para
  <li>a-bomb</li>
 </ul>
 
+### Jello
+<ul>
+ <li>a-jello-horizontal</li>
+ <li>a-jello-vertical</li>
+</ul>
+
+### Vibrate
+<ul>
+ <li>a-vibrate-low</li>
+ <li>a-vibrate-medium</li>
+ <li>a-vibrate-high</li>
+</ul>
+
+### Wobble
+<ul>
+ <li>a-wobble-bottom</li>
+ <li>a-wobble-left</li>
+ <li>a-wobble-right</li>
+ <li>a-wobble-top</li>
+</ul>
+
 <br>
 <br>
 
