@@ -1,33 +1,32 @@
 .a-wobble-right {
-    @include keyframes(wobbleR) {
-
-        0%,
-        100% {
-            transform: translateY(0) rotate(0);
-            transform-origin: 50% 50%;
-        }
-
-        15% {
-            transform: translateY(-30px) rotate(6deg);
-        }
-
-        30% {
-            transform: translateY(15px) rotate(-6deg);
-        }
-
-        45% {
-            transform: translateY(-15px) rotate(3.6deg);
-        }
-
-        60% {
-            transform: translateY(9px) rotate(-2.4deg);
-        }
-
-        75% {
-            transform: translateY(-6px) rotate(1.2deg);
-        }
+  @include keyframes(wobbleR) {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
     }
 
-    @include show();
-    @include animate(wobbleR 2s ease 0s normal forwards);
+    15% {
+      transform: translateY(-30px) rotate(6deg);
+    }
+
+    30% {
+      transform: translateY(15px) rotate(-6deg);
+    }
+
+    45% {
+      transform: translateY(-15px) rotate(3.6deg);
+    }
+
+    60% {
+      transform: translateY(9px) rotate(-2.4deg);
+    }
+
+    75% {
+      transform: translateY(-6px) rotate(1.2deg);
+    }
+  }
+
+  @include show();
+  @include animate(wobbleR 2s ease 0s normal forwards);
 }

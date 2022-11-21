@@ -1,22 +1,22 @@
 .a-flip-scale {
-    @include keyframes(flipScale) {
-        0% {
-            transform: scale(1) rotate3d(-1, 1, 0, 0deg);
-        }
-
-        50% {
-            transform: scale(0.4) rotate3d(-1, 1, 0, -90deg);
-        }
-
-        75% {
-            transform: scale(1) rotate3d(-1, 1, 0, -180deg);
-        }
-
-        100% {  
-            transform: scale(1) rotate3d(-1, 1, 0, -360deg);
-        }
+  @include keyframes(flipScale) {
+    0% {
+      transform: scale(1) rotate3d(-1, 1, 0, 0deg);
     }
 
-    @include show();
-    @include animate(flipScale 1s ease-in-out 1);
+    50% {
+      transform: scale(0.4) rotate3d(-1, 1, 0, -90deg);
+    }
+
+    75% {
+      transform: scale(1) rotate3d(-1, 1, 0, -180deg);
+    }
+
+    100% {
+      transform: scale(1) rotate3d(-1, 1, 0, -360deg);
+    }
+  }
+
+  @include show();
+  @include animate(flipScale 1s ease-in-out 1);
 }
