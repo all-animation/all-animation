@@ -15,6 +15,5 @@
     }
   }
 
-  @include show();
   @include animate(flipBottom $flip-timing ease-out 1);
 }

@@ -19,6 +19,5 @@
     }
   }
 
-  @include show();
   @include animate(flipLeftBounce $perspective-bounce-timing ease-in-out 1);
 }
